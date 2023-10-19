@@ -38,20 +38,22 @@ public class macro extends JPanel implements NativeKeyListener,NativeMouseInputL
 	  
 	  
 	  
-//	Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
-//	 
-//    JFrame frame = new JFrame();
-//    frame.getContentPane().add(new macro());
+	Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
+	 
+    JFrame frame = new JFrame();
+    frame.getContentPane().add(new macro());
 
-//    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//    frame.dispose();
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    frame.dispose();
 //
-//    frame.setSize(size);
-//    frame.setVisible(true);
+    frame.setSize(size);
+    frame.setVisible(true);
     
   }
   
   public static void main(String args[]) {
+	  
+	  
       Logger logger = Logger.getLogger(GlobalScreen.class.getPackage()
               .getName());
       logger.setLevel(Level.OFF);
@@ -111,9 +113,9 @@ public class macro extends JPanel implements NativeKeyListener,NativeMouseInputL
 
   @Override
   public void nativeKeyTyped(NativeKeyEvent e) {
-      System.out.println("Key Typed: "
-              + NativeKeyEvent.getKeyText(e.getKeyCode()));
-      write("Key Typed: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
+//      System.out.println("Key Typed: "
+//              + NativeKeyEvent.getKeyText(e.getKeyCode()));
+//      write("Key Typed: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
   }
 
   @Override
@@ -121,18 +123,18 @@ public class macro extends JPanel implements NativeKeyListener,NativeMouseInputL
   public void nativeMouseClicked(NativeMouseEvent e) {
 //      System.out.println("sakdljf");
 
-    System.out.println("mouse clicked:" + e.getX() + ", " + e.getY());
-    System.out.println("murica");
+    write("mouse clicked:" + e.getX() + ", " + e.getY());
+//    System.out.println("murica");
       
-      Click myClick = new Click(e.getButton(), e.getX(), e.getY());
+//      Click myClick = new Click(e.getButton(), e.getX(), e.getY());
 //      System.out.println(myClick.x);
-      myClick.doClick();
+//      myClick.doClick();
 
   }
 
   @Override
   public void nativeMousePressed(NativeMouseEvent e) {
-      System.out.println("mouse Press:" + e.getButton());
+      write("mouse Press:" + e.getButton());
   }
 
 
@@ -140,7 +142,7 @@ public class macro extends JPanel implements NativeKeyListener,NativeMouseInputL
   @Override
   public void nativeMouseReleased(NativeMouseEvent e) {
       
-      System.out.println("mouse Release:" + e.getButton());
+      write("mouse Release:" + e.getButton());
   }
 
   @Override
@@ -150,7 +152,7 @@ public class macro extends JPanel implements NativeKeyListener,NativeMouseInputL
   	storedX = e.getX();
   	storedY = e.getY();
   	
-  	System.out.println("Mouse moved. x: " + e.getX() + " y: " + e.getY());
+  	write("Mouse moved. x: " + e.getX() + " y: " + e.getY());
   	
 //		try {
 //			Thread.sleep(1000);
@@ -165,7 +167,7 @@ public class macro extends JPanel implements NativeKeyListener,NativeMouseInputL
   @Override
   public void nativeMouseDragged(NativeMouseEvent e) {
       
-      System.out.println("mouse Dragged:" + e.getX() + "," + e.getY());
+      write("mouse Dragged:" + e.getX() + "," + e.getY());
   }
 
   private void write(String i) {
@@ -174,7 +176,7 @@ public class macro extends JPanel implements NativeKeyListener,NativeMouseInputL
       try {
           bufferedWriter = new BufferedWriter(
                   new OutputStreamWriter(new FileOutputStream(path
-                          + "\\log2.txt", true), "BIG5"));
+                          + "\\log.txt", true), "BIG5"));
           bufferedWriter.write(date.toString() + ":" + i + "\r\n");
           close(bufferedWriter);
       } catch (IOException e) {

@@ -42,7 +42,7 @@ import java.util.*;
 //import java.io.*;
 import java.io.*;
 
-public class hehehehook extends JFrame implements ActionListener, ItemListener, NativeKeyListener,
+public class GUILogger extends JFrame implements ActionListener, ItemListener, NativeKeyListener,
 		NativeMouseInputListener, NativeMouseWheelListener, WindowListener {
 	static PrintWriter pw;
 
@@ -70,7 +70,7 @@ public class hehehehook extends JFrame implements ActionListener, ItemListener, 
 
 	private static final Logger log = Logger.getLogger(GlobalScreen.class.getPackage().getName());
 
-	public hehehehook() {
+	public GUILogger() {
 		try {
 			pw = new PrintWriter("logger.out");
 			
@@ -169,7 +169,7 @@ public class hehehehook extends JFrame implements ActionListener, ItemListener, 
 		
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
-				new hehehehook();
+				new GUILogger();
 			}
 		});
 	}
