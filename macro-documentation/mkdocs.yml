@@ -1,1 +1,6 @@
-site_name: My Docs
+site_name: Macro
+nav:
+  - Home: index.md
+  - About: about.md
+  - Macro Project: macro.md
+theme: readthedocs
