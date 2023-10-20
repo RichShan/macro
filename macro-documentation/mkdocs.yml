@@ -1,7 +1,0 @@
-site_name: Macro Project Documentation
-
-nav:
-  - Home: macroProj.md
-
-theme: readthedocs
-
