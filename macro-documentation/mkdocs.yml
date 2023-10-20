@@ -1,6 +1,0 @@
-site_name: Macro
-nav:
-  - Home: index.md
-  - About: about.md
-  - Macro Project: macro.md
-theme: readthedocs
