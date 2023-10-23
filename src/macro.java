@@ -24,6 +24,10 @@ import com.github.kwhat.jnativehook.keyboard.*;
 import com.github.kwhat.jnativehook.mouse.*;
 
 
+/**
+ * @author Richard Shan
+ *
+ */
 public class macro extends JPanel implements NativeKeyListener,NativeMouseInputListener {
 	
 	static ArrayList<Object> recordedActions = new ArrayList<>();

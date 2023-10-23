@@ -42,20 +42,36 @@ import java.util.*;
 //import java.io.*;
 import java.io.*;
 
+/**
+ * @author Richard Shan
+ * https://richard-shan.github.io/coding/macro/
+ * 
+ */
 public class GUILogger extends JFrame implements ActionListener, ItemListener, NativeKeyListener,
 		NativeMouseInputListener, NativeMouseWheelListener, WindowListener {
+	
+	
 	static PrintWriter pw;
 
-	static ArrayList<Object> recordedActions = new ArrayList<>();
-
+	static ArrayList<Object> recordedSequences = new ArrayList<>();
+	
+	Stack<Action> recordedActions = new Stack<Action>();
+	
+	
 	private static final long serialVersionUID = 1541183202160543102L;
+	
+	boolean recording;
 
 	private final JMenu menuSubListeners;
 
 	private final JMenuItem menuItemQuit;
 
 	private final JMenuItem menuItemClear;
-
+	
+	private JMenuItem menuItemStartRec;
+	
+	private JMenuItem menuItemStopRec;
+	
 	private final JCheckBoxMenuItem menuItemEnable;
 
 	private final JCheckBoxMenuItem menuItemKeyboardEvents;
@@ -68,9 +84,11 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 
 	private final JTextArea txtEventInfo;
 
+
 	private static final Logger log = Logger.getLogger(GlobalScreen.class.getPackage().getName());
 
 	public GUILogger() {
+		
 		try {
 			pw = new PrintWriter("logger.out");
 			
@@ -146,6 +164,22 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		this.txtEventInfo.setForeground(new Color(0, 0, 0));
 		this.txtEventInfo.setText("");
 
+		JMenu menuRecord = new JMenu("Record");
+		menuBar.add(menuRecord);
+		
+		this.menuItemStartRec = new JMenuItem("Start Recording", 82);
+		this.menuItemStartRec.addActionListener(this);
+		this.menuItemStartRec.setAccelerator(KeyStroke.getKeyStroke(82, 192));
+		menuRecord.add(menuItemStartRec);
+		menuRecord.addSeparator();
+		
+		this.menuItemStopRec = new JMenuItem("Stop Recording", 83);
+		this.menuItemStopRec.addActionListener(this);
+		this.menuItemStopRec.setAccelerator(KeyStroke.getKeyStroke(83, 192));
+		menuRecord.add(menuItemStopRec);
+		menuRecord.addSeparator();
+		
+		
 		JScrollPane scrollPane = new JScrollPane(this.txtEventInfo);
 		scrollPane.setPreferredSize(new Dimension(375, 125));
 		add(scrollPane, "Center");
@@ -179,6 +213,21 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 			dispose();
 		} else if (e.getSource() == this.menuItemClear) {
 			this.txtEventInfo.setText("");
+			write("Cleared");
+		} else if(e.getSource() == this.menuItemStartRec) {
+			if(recording == true) {
+				write("Already recording.");
+			} else {
+			recording = true;
+			write("Recording started");
+			}
+		} else if(e.getSource() == this.menuItemStopRec) {
+			if(recording == false) {
+				write("Recording already stopped.");
+			} else {
+			recording = false;
+			write("Recording ended");
+			}
 		}
 	}
 
@@ -225,6 +274,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 
 	@Override
 	public void nativeKeyPressed(NativeKeyEvent e) {
+		
 //      System.out.println("Key Pressed: "
 //              + NativeKeyEvent.getKeyText(e.getKeyCode()));
 		write(System.currentTimeMillis() + ": " + "Key Pressed: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
@@ -268,7 +318,8 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		write(System.currentTimeMillis() + ": " + "Mouse clicked. x: " + e.getX() + ", y: " + e.getY() + " with Button "
 				+ e.getButton());
 		pw.println(System.currentTimeMillis() + ": " + "Mouse clicked. x: " + e.getX() + ", y: " + e.getY() + " with Button "
-				+ e.getButton());		recordedActions.add(new Click(e.getButton(), e.getX(), e.getY()));
+				+ e.getButton());		
+//		recordedActions.add(new Click(e.getButton(), e.getX(), e.getY()));
 		// System.out.println("murica");
 
 //    Click myClick = new Click(e.getButton(), e.getX(), e.getY());
