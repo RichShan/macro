@@ -53,10 +53,13 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 	
 	static PrintWriter pw;
 
-	static ArrayList<Object> recordedSequences = new ArrayList<>();
+//	ArrayList<Stack> recordedSequences = new ArrayList<>();
+	ArrayList<ArrayList> recordedSequences = new ArrayList<>();
 	
-	Stack<Action> recordedActions = new Stack<Action>();
+//	Stack<Action> recordedActions = new Stack<Action>();
+	ArrayList<Action> recordedActions = new ArrayList<Action>();
 	
+	long time = System.currentTimeMillis();	
 	
 	private static final long serialVersionUID = 1541183202160543102L;
 	
@@ -72,6 +75,8 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 	
 	private JMenuItem menuItemStopRec;
 	
+	private JMenuItem menuItemReplay1;	
+	
 	private final JCheckBoxMenuItem menuItemEnable;
 
 	private final JCheckBoxMenuItem menuItemKeyboardEvents;
@@ -83,6 +88,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 	private final JCheckBoxMenuItem menuItemWheelEvents;
 
 	private final JTextArea txtEventInfo;
+
 
 
 	private static final Logger log = Logger.getLogger(GlobalScreen.class.getPackage().getName());
@@ -180,6 +186,16 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		menuRecord.addSeparator();
 		
 		
+		JMenu menuReplay1 = new JMenu("Replay");
+		menuBar.add(menuReplay1);
+		
+		this.menuItemReplay1 = new JMenuItem("Replay Macro 1", 49);
+		this.menuItemReplay1.addActionListener(this);
+		this.menuItemReplay1.setAccelerator(KeyStroke.getKeyStroke(49, 192));
+		menuReplay1.add(menuItemReplay1);
+		menuReplay1.addSeparator();
+		
+		
 		JScrollPane scrollPane = new JScrollPane(this.txtEventInfo);
 		scrollPane.setPreferredSize(new Dimension(375, 125));
 		add(scrollPane, "Center");
@@ -219,15 +235,20 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 				write("Already recording.");
 			} else {
 			recording = true;
-			write("Recording started");
+			write("Recording Started");
 			}
 		} else if(e.getSource() == this.menuItemStopRec) {
 			if(recording == false) {
 				write("Recording already stopped.");
 			} else {
-			recording = false;
-			write("Recording ended");
+				recordedSequences.add(recordedActions);
+				recordedActions.clear();
+				recording = false;
+				write("Recording ended");
 			}
+		} else if(e.getSource() == this.menuItemReplay1) {
+		    write("Replaying");
+
 		}
 	}
 
@@ -274,6 +295,14 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 
 	@Override
 	public void nativeKeyPressed(NativeKeyEvent e) {
+		if(recording) {
+			recordedActions.add(new KeyPress(e, System.currentTimeMillis()-time));
+			time = System.currentTimeMillis();
+		}
+		
+//		if(recording) {
+//			recordedActions.add(new KeyPress((e), System.currentTimeMillis(), false));
+//		}
 		
 //      System.out.println("Key Pressed: "
 //              + NativeKeyEvent.getKeyText(e.getKeyCode()));
@@ -298,6 +327,16 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 
 	@Override
 	public void nativeKeyReleased(NativeKeyEvent e) {
+		
+		if(recording) {
+			recordedActions.add(new KeyRelease(e, System.currentTimeMillis()-time));
+			time = System.currentTimeMillis();
+		}
+		
+//		if(recording) {
+//			recordedActions.add(new KeyPress((e), System.currentTimeMillis(), true));
+//		}
+		
 //      System.out.println("Key Released: "
 //              + NativeKeyEvent.getKeyText(e.getKeyCode()));
 		write(System.currentTimeMillis() + ": " + "Key Released: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
@@ -313,12 +352,12 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 
 	@Override
 	public void nativeMouseClicked(NativeMouseEvent e) {
-//    System.out.println("sakdljf");
-
-		write(System.currentTimeMillis() + ": " + "Mouse clicked. x: " + e.getX() + ", y: " + e.getY() + " with Button "
-				+ e.getButton());
-		pw.println(System.currentTimeMillis() + ": " + "Mouse clicked. x: " + e.getX() + ", y: " + e.getY() + " with Button "
-				+ e.getButton());		
+////    System.out.println("sakdljf");
+//
+//		write(System.currentTimeMillis() + ": " + "Mouse clicked. x: " + e.getX() + ", y: " + e.getY() + " with Button "
+//				+ e.getButton());
+//		pw.println(System.currentTimeMillis() + ": " + "Mouse clicked. x: " + e.getX() + ", y: " + e.getY() + " with Button "
+//				+ e.getButton());		
 //		recordedActions.add(new Click(e.getButton(), e.getX(), e.getY()));
 		// System.out.println("murica");
 
@@ -328,16 +367,30 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 
 	}
 
-//  public void nativeMousePressed(NativeMouseEvent e) {
-//    write(e.paramString());
-//  }
-
-//  public void nativeMouseReleased(NativeMouseEvent e) {
-//    write(e.paramString());
-//  }
+	@Override
+  public void nativeMousePressed(NativeMouseEvent e) {
+	if(recording) {
+		recordedActions.add(new ClickPress(e, System.currentTimeMillis()-time));
+		time = System.currentTimeMillis();
+	}
+    write("Mouse Pressed: " + e.getX() +", " + e.getY());
+  }
+	@Override
+  public void nativeMouseReleased(NativeMouseEvent e) {
+	if(recording) {
+		recordedActions.add(new ClickRelease(e, System.currentTimeMillis()-time));
+		time = System.currentTimeMillis();
+	}		
+	write("Mouse Released: " + e.getX() +", " + e.getY());
+	
+  }
 
 	@Override
 	public void nativeMouseMoved(NativeMouseEvent e) {
+		if(recording) {
+			recordedActions.add(new mouseMove(e, System.currentTimeMillis()-time));
+			time = System.currentTimeMillis();
+		}
 // 	int storedX, storedY;
 //     
 // 	storedX = e.getX();

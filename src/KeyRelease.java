@@ -5,7 +5,7 @@ import java.awt.event.KeyEvent;
 
 import com.github.kwhat.jnativehook.keyboard.NativeKeyEvent;
 
-public class KeyPress implements Action{
+public class KeyRelease implements Action{
 	static Robot robot;
 	NativeKeyEvent e;
 	long delay;
@@ -22,7 +22,7 @@ public class KeyPress implements Action{
 		
 		
 	}
-	public KeyPress(NativeKeyEvent ke, long delay) {
+	public KeyRelease(NativeKeyEvent ke, long delay) {
 		ke = e;
 		delay = this.delay;
 	}
@@ -30,7 +30,7 @@ public class KeyPress implements Action{
 	@Override
 	public void press() {
 		robot.delay((int) delay);
-		robot.keyPress(e.getKeyCode());
+		robot.keyRelease(e.getKeyCode());
 	}
 	
 }

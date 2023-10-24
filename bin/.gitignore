@@ -9,3 +9,7 @@
 /JNativeHook.x86_64.dll
 /logger.out
 /KeyPress.class
+/KeyRelease.class
+/ClickPress.class
+/mouseMove.class
+/ClickRelease.class
