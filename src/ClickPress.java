@@ -13,6 +13,12 @@ public class ClickPress implements Action{
 	int button, x, y;
 	
 	public ClickPress(NativeMouseEvent me, long delay) {
+		try {
+			robot = new Robot();
+		} catch (AWTException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		e = me;
 		delay = this.delay;
 	}

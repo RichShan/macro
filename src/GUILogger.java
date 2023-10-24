@@ -242,13 +242,15 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 				write("Recording already stopped.");
 			} else {
 				recordedSequences.add(recordedActions);
-				recordedActions.clear();
+//				recordedActions.clear();
 				recording = false;
 				write("Recording ended");
 			}
 		} else if(e.getSource() == this.menuItemReplay1) {
 		    write("Replaying");
-
+			for(Action i : recordedActions) {
+				i.press();
+			}
 		}
 	}
 
@@ -256,7 +258,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		ItemSelectable item = e.getItemSelectable();
 		if (item == this.menuItemEnable) {
 			try {
-				if (e.getStateChange() == 1) {
+				if (e.getStateChange() == 1) {  
 					GlobalScreen.registerNativeHook();
 				} else {
 					GlobalScreen.unregisterNativeHook();

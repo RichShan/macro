@@ -2,6 +2,9 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
+import java.awt.event.KeyEvent.*;
+import java.awt.event.InputEvent;
+
 
 import com.github.kwhat.jnativehook.keyboard.NativeKeyEvent;
 
@@ -23,6 +26,12 @@ public class KeyPress implements Action{
 		
 	}
 	public KeyPress(NativeKeyEvent ke, long delay) {
+		try {
+			robot = new Robot();
+		} catch (AWTException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		ke = e;
 		delay = this.delay;
 	}
@@ -30,7 +39,7 @@ public class KeyPress implements Action{
 	@Override
 	public void press() {
 		robot.delay((int) delay);
-		robot.keyPress(e.getKeyCode());
+		robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(e.getKeyChar()));
 	}
 	
 }

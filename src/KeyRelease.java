@@ -23,14 +23,22 @@ public class KeyRelease implements Action{
 		
 	}
 	public KeyRelease(NativeKeyEvent ke, long delay) {
-		ke = e;
+		try {
+			robot = new Robot();
+		} catch (AWTException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		e = ke;
 		delay = this.delay;
 	}
 
 	@Override
 	public void press() {
+		
 		robot.delay((int) delay);
-		robot.keyRelease(e.getKeyCode());
+		robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(e.getKeyChar()));
+
 	}
 	
 }
