@@ -1,6 +1,7 @@
 import java.awt.AWTException;
 import java.awt.Robot;
 
+import com.github.kwhat.jnativehook.keyboard.SwingKeyAdapter;
 import com.github.kwhat.jnativehook.mouse.NativeMouseEvent;
 
 public class mouseMove implements Action{
@@ -13,18 +14,19 @@ public class mouseMove implements Action{
 	int button, x, y;
 	
 	public mouseMove(NativeMouseEvent me, long delay) {
+		delay = this.delay;
 		try {
 			robot = new Robot();
+			robot.setAutoDelay((int) delay);
 		} catch (AWTException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		e = me;
-		delay = this.delay;
 	}
 	@Override
 	public void press() {
-		robot.delay((int) delay);
+//		robot.delay((int) delay);
 		robot.mouseMove(e.getX(), e.getY());
 		
 	}

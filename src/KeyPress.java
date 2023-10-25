@@ -12,6 +12,7 @@ public class KeyPress implements Action{
 	static Robot robot;
 	NativeKeyEvent e;
 	long delay;
+	SwingKeyAdapter ska = new SwingKeyAdapter();
 	
 	
 	public static void main(String args[]) {
@@ -28,18 +29,27 @@ public class KeyPress implements Action{
 	public KeyPress(NativeKeyEvent ke, long delay) {
 		try {
 			robot = new Robot();
+			robot.setAutoDelay((int) delay);
 		} catch (AWTException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		ke = e;
+		e = ke;
 		delay = this.delay;
 	}
 
 	@Override
 	public void press() {
-		robot.delay((int) delay);
-		robot.keyPress(KeyEvent.getExtendedKeyCodeForChar(e.getKeyChar()));
+//		try {
+//			Thread.sleep(delay);
+			robot.keyPress(ska.getJavaKeyEvent(e).getKeyCode());
+//		} catch (InterruptedException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
+//		robot.setAutoDelay(5);
+//		robot.delay((int) delay);
+//		System.out.println(delay);
 	}
 	
 }

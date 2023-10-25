@@ -15,9 +15,10 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-package org.jnativehook.keyboard;
+//import org.jnativehook.AbstractSwingInputAdapter;
 
-import org.jnativehook.AbstractSwingInputAdapter;
+import com.github.kwhat.jnativehook.keyboard.NativeKeyEvent;
+import com.github.kwhat.jnativehook.keyboard.NativeKeyListener;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
@@ -28,7 +29,7 @@ import java.awt.event.KeyListener;
  *
  * @since 2.1
  */
-public class SwingKeyAdapter extends AbstractSwingInputAdapter implements NativeKeyListener, KeyListener {
+public class SwingKeyAdapter extends com.github.kwhat.jnativehook.AbstractSwingInputAdapter implements NativeKeyListener, KeyListener {
 
 	public void nativeKeyTyped(NativeKeyEvent nativeEvent) {
 		this.keyTyped(this.getJavaKeyEvent(nativeEvent));
@@ -54,7 +55,7 @@ public class SwingKeyAdapter extends AbstractSwingInputAdapter implements Native
 		// Do Nothing.
 	}
 
-	protected KeyEvent getJavaKeyEvent(NativeKeyEvent nativeEvent) {
+	public KeyEvent getJavaKeyEvent(NativeKeyEvent nativeEvent) {
 		int keyLocation  = KeyEvent.KEY_LOCATION_UNKNOWN;
 		switch (nativeEvent.getKeyLocation()) {
 			case NativeKeyEvent.KEY_LOCATION_STANDARD:

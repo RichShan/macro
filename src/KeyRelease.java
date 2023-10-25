@@ -10,6 +10,8 @@ public class KeyRelease implements Action{
 	NativeKeyEvent e;
 	long delay;
 	
+	SwingKeyAdapter ska = new SwingKeyAdapter();
+
 	
 	public static void main(String args[]) {
 		try {
@@ -25,6 +27,7 @@ public class KeyRelease implements Action{
 	public KeyRelease(NativeKeyEvent ke, long delay) {
 		try {
 			robot = new Robot();
+			robot.setAutoDelay((int) delay);
 		} catch (AWTException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -35,9 +38,15 @@ public class KeyRelease implements Action{
 
 	@Override
 	public void press() {
-		
-		robot.delay((int) delay);
-		robot.keyRelease(KeyEvent.getExtendedKeyCodeForChar(e.getKeyChar()));
+//		try {
+//			Thread.sleep(delay);
+			robot.keyRelease(ska.getJavaKeyEvent(e).getKeyCode());
+//
+//		} catch (InterruptedException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
+////		robot.delay((int) delay);
 
 	}
 	

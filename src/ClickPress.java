@@ -2,6 +2,7 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.InputEvent;
 
+import com.github.kwhat.jnativehook.keyboard.SwingKeyAdapter;
 import com.github.kwhat.jnativehook.mouse.NativeMouseEvent;
 
 public class ClickPress implements Action{
@@ -13,14 +14,15 @@ public class ClickPress implements Action{
 	int button, x, y;
 	
 	public ClickPress(NativeMouseEvent me, long delay) {
+		e = me;
+		delay = this.delay;
 		try {
 			robot = new Robot();
+			robot.setAutoDelay((int) delay);
 		} catch (AWTException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		e = me;
-		delay = this.delay;
 	}
 	
 //	public Click(int buttonNum, int scaledXCoord, int scaledYCoord) {
@@ -39,7 +41,7 @@ public class ClickPress implements Action{
 	
 	@Override
 	public void press() {
-		robot.delay((int) delay);
+//		robot.delay((int) delay);
 		robot.mousePress(e.getButton());
 		
 //		if(e.getButton() == 1) {

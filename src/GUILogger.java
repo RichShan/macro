@@ -3,16 +3,20 @@ import com.github.kwhat.jnativehook.NativeHookException;
 import com.github.kwhat.jnativehook.dispatcher.SwingDispatchService;
 import com.github.kwhat.jnativehook.keyboard.NativeKeyEvent;
 import com.github.kwhat.jnativehook.keyboard.NativeKeyListener;
+import com.github.kwhat.jnativehook.keyboard.SwingKeyAdapter;
 import com.github.kwhat.jnativehook.mouse.NativeMouseEvent;
 import com.github.kwhat.jnativehook.mouse.NativeMouseInputListener;
 import com.github.kwhat.jnativehook.mouse.NativeMouseListener;
 import com.github.kwhat.jnativehook.mouse.NativeMouseMotionListener;
 import com.github.kwhat.jnativehook.mouse.NativeMouseWheelEvent;
 import com.github.kwhat.jnativehook.mouse.NativeMouseWheelListener;
+import java.awt.event.KeyEvent;
+import java.awt.AWTException;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.ItemSelectable;
+import java.awt.Robot;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
@@ -41,6 +45,7 @@ import javax.swing.text.BadLocationException;
 import java.util.*;
 //import java.io.*;
 import java.io.*;
+import java.awt.Robot;
 
 /**
  * @author Richard Shan
@@ -49,15 +54,18 @@ import java.io.*;
  */
 public class GUILogger extends JFrame implements ActionListener, ItemListener, NativeKeyListener,
 		NativeMouseInputListener, NativeMouseWheelListener, WindowListener {
+
+	static Robot robot;	
 	
+	SwingKeyAdapter ska = new SwingKeyAdapter();
 	
 	static PrintWriter pw;
 
 //	ArrayList<Stack> recordedSequences = new ArrayList<>();
-	ArrayList<ArrayList> recordedSequences = new ArrayList<>();
+	ArrayList<Stack> recordedSequences = new ArrayList<Stack>();
 	
 //	Stack<Action> recordedActions = new Stack<Action>();
-	ArrayList<Action> recordedActions = new ArrayList<Action>();
+	Stack<Action> recordedActions = new Stack<Action>();
 	
 	long time = System.currentTimeMillis();	
 	
@@ -208,7 +216,8 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		setVisible(true);
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws AWTException {
+		robot = new Robot();
 
 		try {
 			pw = new PrintWriter("C:/Users/richa/Desktop/logger.out");
@@ -234,22 +243,37 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 			if(recording == true) {
 				write("Already recording.");
 			} else {
-			recording = true;
-			write("Recording Started");
+//				recordedActions.remove(0);
+//				recordedActions.remove(1);
+//				recordedActions.remove(2); 
+			    recording = true;
+			    write("Recording Started");
 			}
 		} else if(e.getSource() == this.menuItemStopRec) {
 			if(recording == false) {
 				write("Recording already stopped.");
 			} else {
+//				recordedActions.remove(recordedActions.size());
+//				recordedActions.remove(recordedActions.size()-1);
+//				recordedActions.remove(recordedActions.size()-2);
+			    recording = false; 
 				recordedSequences.add(recordedActions);
 //				recordedActions.clear();
-				recording = false;
 				write("Recording ended");
 			}
 		} else if(e.getSource() == this.menuItemReplay1) {
 		    write("Replaying");
-			for(Action i : recordedActions) {
+		    robot.keyRelease(KeyEvent.VK_CONTROL);
+		    robot.keyRelease(KeyEvent.VK_SHIFT);
+		    robot.keyRelease(KeyEvent.VK_1);
+			for(Action i : (Stack<Action>) recordedSequences.get(0)) {
 				i.press();
+//				try {
+//					Thread.sleep(i.delay);
+//				} catch (InterruptedException e1) {
+//					// TODO Auto-generated catch block
+//					e1.printStackTrace();
+//				}
 			}
 		}
 	}
@@ -298,7 +322,9 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 	@Override
 	public void nativeKeyPressed(NativeKeyEvent e) {
 		if(recording) {
-			recordedActions.add(new KeyPress(e, System.currentTimeMillis()-time));
+//			System.out.println("Time: " + System.currentTimeMillis());
+//			System.out.println("OLD: " + time);
+			recordedActions.add(new KeyPress(e, Math.abs(System.currentTimeMillis()-time)));
 			time = System.currentTimeMillis();
 		}
 		
@@ -311,27 +337,26 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		write(System.currentTimeMillis() + ": " + "Key Pressed: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
 		
 		
-
 //      recordedActions.add(new Key(e));
 //      System.out.println(recordedActions[0]);
 
-		if (e.getKeyCode() == NativeKeyEvent.VC_ESCAPE) {
-			try {
-				GlobalScreen.unregisterNativeHook();
-//              System.exit(ABORT);
-			} catch (NativeHookException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-
-			}
-		}
+//		if (e.getKeyCode() == NativeKeyEvent.VC_ESCAPE) {
+//			try {
+//				GlobalScreen.unregisterNativeHook();
+////              System.exit(ABORT);
+//			} catch (NativeHookException e1) {
+//				// TODO Auto-generated catch block
+//				e1.printStackTrace();
+//
+//			}
+//		} 
 	}
-
 	@Override
 	public void nativeKeyReleased(NativeKeyEvent e) {
 		
 		if(recording) {
-			recordedActions.add(new KeyRelease(e, System.currentTimeMillis()-time));
+//			System.out.println(Math.abs(System.currentTimeMillis()-time));
+			recordedActions.add(new KeyRelease(e, Math.abs(System.currentTimeMillis()-time)));
 			time = System.currentTimeMillis();
 		}
 		
