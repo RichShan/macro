@@ -29,7 +29,7 @@ public class KeyPress implements Action{
 	public KeyPress(NativeKeyEvent ke, long delay) {
 		try {
 			robot = new Robot();
-			robot.setAutoDelay((int) delay);
+			robot.setAutoDelay((int) delay/2);
 		} catch (AWTException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();

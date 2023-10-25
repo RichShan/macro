@@ -67,6 +67,8 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 //	Stack<Action> recordedActions = new Stack<Action>();
 	Stack<Action> recordedActions = new Stack<Action>();
 	
+	int currentSeq = 0;
+	
 	long time = System.currentTimeMillis();	
 	
 	private static final long serialVersionUID = 1541183202160543102L;
@@ -235,10 +237,11 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 	
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == this.menuItemQuit) {
-			dispose();
+			dispose();  
 		} else if (e.getSource() == this.menuItemClear) {
-			this.txtEventInfo.setText("");
-			write("Cleared");
+			recordedActions.clear();
+			recordedSequences.clear();
+			this.txtEventInfo.setText("Cleared");
 		} else if(e.getSource() == this.menuItemStartRec) {
 			if(recording == true) {
 				write("Already recording.");
@@ -258,6 +261,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 //				recordedActions.remove(recordedActions.size()-2);
 			    recording = false; 
 				recordedSequences.add(recordedActions);
+//				recordedActions.clear();
 //				recordedActions.clear();
 				write("Recording ended");
 			}
@@ -326,7 +330,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 //			System.out.println("OLD: " + time);
 			recordedActions.add(new KeyPress(e, Math.abs(System.currentTimeMillis()-time)));
 			time = System.currentTimeMillis();
-		}
+		} 
 		
 //		if(recording) {
 //			recordedActions.add(new KeyPress((e), System.currentTimeMillis(), false));
@@ -334,7 +338,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		
 //      System.out.println("Key Pressed: "
 //              + NativeKeyEvent.getKeyText(e.getKeyCode()));
-		write(System.currentTimeMillis() + ": " + "Key Pressed: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
+//		write(System.currentTimeMillis() + ": " + "Key Pressed: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
 		
 		
 //      recordedActions.add(new Key(e));
@@ -366,7 +370,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		
 //      System.out.println("Key Released: "
 //              + NativeKeyEvent.getKeyText(e.getKeyCode()));
-		write(System.currentTimeMillis() + ": " + "Key Released: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
+//		write(System.currentTimeMillis() + ": " + "Key Released: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
 		pw.println(System.currentTimeMillis() + ": " + "Key Released: " + NativeKeyEvent.getKeyText(e.getKeyCode()));
 	}
 
@@ -400,7 +404,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		recordedActions.add(new ClickPress(e, System.currentTimeMillis()-time));
 		time = System.currentTimeMillis();
 	}
-    write("Mouse Pressed: " + e.getX() +", " + e.getY());
+//    write("Mouse Pressed: " + e.getX() +", " + e.getY());
   }
 	@Override
   public void nativeMouseReleased(NativeMouseEvent e) {
@@ -408,7 +412,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		recordedActions.add(new ClickRelease(e, System.currentTimeMillis()-time));
 		time = System.currentTimeMillis();
 	}		
-	write("Mouse Released: " + e.getX() +", " + e.getY());
+//	write("Mouse Released: " + e.getX() +", " + e.getY());
 	
   }
 
@@ -434,7 +438,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 // 	newY = e.getY();
 // 	
 // 	if(newX != storedX || newY != storedY) {
-		write(System.currentTimeMillis() + ": " + "Mouse moved. x: " + e.getX() + " y: " + e.getY());
+//		write(System.currentTimeMillis() + ": " + "Mouse moved. x: " + e.getX() + " y: " + e.getY());
 		pw.println(System.currentTimeMillis() + ": " + "Mouse moved. x: " + e.getX() + " y: " + e.getY());
 //		try {
 //			Thread.sleep(5);
@@ -457,7 +461,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 	@Override
 	public void nativeMouseDragged(NativeMouseEvent e) {
 
-		write(System.currentTimeMillis() + ": " + "Mouse Dragged:" + e.getX() + "," + e.getY());
+//		write(System.currentTimeMillis() + ": " + "Mouse Dragged:" + e.getX() + "," + e.getY());
 		pw.println(System.currentTimeMillis() + ": " + "Mouse Dragged:" + e.getX() + "," + e.getY());
 	}
 
