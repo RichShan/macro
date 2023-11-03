@@ -19,8 +19,9 @@ public class ClickRelease implements Action{
 		delay = this.delay;
 		try {
 			robot = new Robot();
-			robot.setAutoDelay((int) delay/2);
-		} catch (AWTException e1) {
+			robot.setAutoDelay(0);
+			robot.setAutoDelay((int) delay);
+			} catch (AWTException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}

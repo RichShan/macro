@@ -5,7 +5,7 @@ import java.awt.Toolkit;
 import com.github.kwhat.jnativehook.keyboard.SwingKeyAdapter;
 import com.github.kwhat.jnativehook.mouse.NativeMouseEvent;
 
-public class mouseMove implements Action{
+public class MouseMove implements Action{
 //	MouseCorrectRobot mcr;
     final Dimension ScreenSize;
 	static Robot robot;
@@ -15,14 +15,15 @@ public class mouseMove implements Action{
 	
 	int button, x, y;
 	
-	public mouseMove(NativeMouseEvent me, long delay) {
+	public MouseMove(NativeMouseEvent me, long delay) {
         ScreenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		delay = this.delay;
 		try {
 //			mcr = new MouseCorrectRobot();
 			robot = new Robot();
-			robot.setAutoDelay((int) delay/2);
-		} catch (AWTException e1) {
+			robot.setAutoDelay(0);
+			robot.setAutoDelay((int) delay);
+			} catch (AWTException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}

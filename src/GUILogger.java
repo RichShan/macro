@@ -272,6 +272,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		    robot.keyRelease(KeyEvent.VK_1);
 			for(Action i : (Stack<Action>) recordedSequences.get(0)) {
 				i.press();
+//				System.out.println(i.delay);
 //				try {
 //					Thread.sleep(i.delay);
 //				} catch (InterruptedException e1) {
@@ -419,7 +420,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 	@Override
 	public void nativeMouseMoved(NativeMouseEvent e) {
 		if(recording) {
-			recordedActions.add(new mouseMove(e, System.currentTimeMillis()-time));
+			recordedActions.add(new MouseMove(e, System.currentTimeMillis()-time));
 			time = System.currentTimeMillis();
 		}
 // 	int storedX, storedY;
