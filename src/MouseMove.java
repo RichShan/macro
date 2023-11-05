@@ -17,12 +17,12 @@ public class MouseMove implements Action{
 	
 	public MouseMove(NativeMouseEvent me, long delay) {
         ScreenSize = Toolkit.getDefaultToolkit().getScreenSize();
-		delay = this.delay;
+		this.delay = delay;
 		try {
 //			mcr = new MouseCorrectRobot();
 			robot = new Robot();
-			robot.setAutoDelay(0);
-			robot.setAutoDelay((int) delay);
+//			robot.setAutoDelay(0);
+//			robot.setAutoDelay((int) delay);
 			} catch (AWTException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -31,6 +31,12 @@ public class MouseMove implements Action{
 	}
 	@Override
 	public void press() {
+		try {
+			Thread.sleep(delay);
+		} catch (InterruptedException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 //		robot.mouseMove(e.getX(), e.getY());
 //		robot.delay((int) delay);
 //		mcr.MoveMouseControlled(e.getX(), e.getY());	

@@ -29,21 +29,23 @@ public class KeyPress implements Action{
 	public KeyPress(NativeKeyEvent ke, long delay) {
 		try {
 			robot = new Robot();
-			robot.setAutoDelay(0);
-			robot.setAutoDelay((int) delay);
+//			robot.setAutoDelay(0);
+//			System.out.println(delay);
+//			robot.setAutoDelay((int) delay);
 		} catch (AWTException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		e = ke;
-		delay = this.delay;
+		this.delay = delay;
 	}
 
 	@Override
 	public void press() {
 //		try {
 //			Thread.sleep(delay);
-			robot.keyPress(ska.getJavaKeyEvent(e).getKeyCode());
+		robot.delay((int) delay);
+		robot.keyPress(ska.getJavaKeyEvent(e).getKeyCode());
 //		} catch (InterruptedException e1) {
 //			// TODO Auto-generated catch block
 //			e1.printStackTrace();

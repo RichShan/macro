@@ -19,17 +19,18 @@ public class ClickRelease implements Action{
 		delay = this.delay;
 		try {
 			robot = new Robot();
-			robot.setAutoDelay(0);
-			robot.setAutoDelay((int) delay);
+//			robot.setAutoDelay(0);
+//			robot.setAutoDelay((int) delay);
 			} catch (AWTException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		e = me;
-		delay = this.delay;
+		this.delay = delay;
 	}
 	@Override
 	public void press() {
+		robot.delay((int) delay);		
 		if(e.getButton() == 1) {
 			robot.mouseRelease(KeyEvent.BUTTON1_DOWN_MASK);
 		} else if(e.getButton() == 2) {

@@ -16,11 +16,11 @@ public class ClickPress implements Action{
 	
 	public ClickPress(NativeMouseEvent me, long delay) {
 		e = me;
-		delay = this.delay;
+		this.delay = delay;
 		try {
 			robot = new Robot();
-			robot.setAutoDelay(0);
-			robot.setAutoDelay((int) delay);
+//			robot.setAutoDelay(0);
+//			robot.setAutoDelay((int) delay);
 		} catch (AWTException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -43,7 +43,7 @@ public class ClickPress implements Action{
 	
 	@Override
 	public void press() {
-//		robot.delay((int) delay);
+		robot.delay((int) delay);
 		if(e.getButton() == 1) {
 			robot.mousePress(KeyEvent.BUTTON1_DOWN_MASK);
 		} else if(e.getButton() == 2) {

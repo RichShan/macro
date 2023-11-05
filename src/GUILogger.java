@@ -271,6 +271,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		    robot.keyRelease(KeyEvent.VK_SHIFT);
 		    robot.keyRelease(KeyEvent.VK_1);
 			for(Action i : (Stack<Action>) recordedSequences.get(0)) {
+//				System.out.println(i.delay);
 				i.press();
 //				System.out.println(i.delay);
 //				try {
