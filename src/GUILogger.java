@@ -281,6 +281,8 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 //					e1.printStackTrace();
 //				}
 			}
+			
+			write("Replaying Complete.");
 		}
 	}
 

@@ -47,7 +47,7 @@ public class ClickPress implements Action{
 		if(e.getButton() == 1) {
 			robot.mousePress(KeyEvent.BUTTON1_DOWN_MASK);
 		} else if(e.getButton() == 2) {
-			System.out.println("RIGHT CLICK");
+//			System.out.println("RIGHT CLICK");
 			robot.mousePress(KeyEvent.BUTTON3_DOWN_MASK);
 		}
 		
