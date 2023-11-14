@@ -1,957 +1,810 @@
-1699149513725: Mouse moved. x: 667 y: 188
-1699149513728: Mouse moved. x: 675 y: 182
-1699149513737: Mouse moved. x: 685 y: 175
-1699149513742: Mouse moved. x: 692 y: 171
-1699149513751: Mouse moved. x: 696 y: 170
-1699149514296: Mouse moved. x: 700 y: 171
-1699149514302: Mouse moved. x: 700 y: 172
-1699149514312: Mouse moved. x: 702 y: 174
-1699149514318: Mouse moved. x: 704 y: 178
-1699149514328: Mouse moved. x: 705 y: 181
-1699149514338: Mouse moved. x: 706 y: 185
-1699149514341: Mouse moved. x: 706 y: 188
-1699149514352: Mouse moved. x: 708 y: 195
-1699149514357: Mouse moved. x: 708 y: 200
-1699149514368: Mouse moved. x: 708 y: 206
-1699149514371: Mouse moved. x: 708 y: 219
-1699149514382: Mouse moved. x: 708 y: 239
-1699149514392: Mouse moved. x: 708 y: 258
-1699149514398: Mouse moved. x: 708 y: 277
-1699149514407: Mouse moved. x: 709 y: 299
-1699149514411: Mouse moved. x: 711 y: 326
-1699149514424: Mouse moved. x: 714 y: 363
-1699149514434: Mouse moved. x: 718 y: 396
-1699149514438: Mouse moved. x: 720 y: 424
-1699149514448: Mouse moved. x: 720 y: 455
-1699149514454: Mouse moved. x: 722 y: 487
-1699149514464: Mouse moved. x: 724 y: 515
-1699149514473: Mouse moved. x: 726 y: 539
-1699149514477: Mouse moved. x: 728 y: 573
-1699149514488: Mouse moved. x: 730 y: 605
-1699149514494: Mouse moved. x: 733 y: 641
-1699149514504: Mouse moved. x: 735 y: 674
-1699149514508: Mouse moved. x: 744 y: 694
-1699149514518: Mouse moved. x: 754 y: 717
-1699149514528: Mouse moved. x: 757 y: 737
-1699149514534: Mouse moved. x: 761 y: 758
-1699149514544: Mouse moved. x: 762 y: 774
-1699149514550: Mouse moved. x: 766 y: 789
-1699149514560: Mouse moved. x: 768 y: 809
-1699149514570: Mouse moved. x: 769 y: 820
-1699149514574: Mouse moved. x: 771 y: 835
-1699149514584: Mouse moved. x: 774 y: 849
-1699149514589: Mouse moved. x: 774 y: 855
-1699149514600: Mouse moved. x: 776 y: 863
-1699149514604: Mouse moved. x: 781 y: 874
-1699149514614: Mouse moved. x: 782 y: 883
-1699149514624: Mouse moved. x: 784 y: 892
-1699149514630: Mouse moved. x: 788 y: 900
-1699149514640: Mouse moved. x: 790 y: 909
-1699149514644: Mouse moved. x: 791 y: 916
-1699149514656: Mouse moved. x: 794 y: 928
-1699149514666: Mouse moved. x: 796 y: 930
-1699149514670: Mouse moved. x: 796 y: 931
-1699149514680: Mouse moved. x: 796 y: 933
-1699149514686: Mouse moved. x: 798 y: 934
-1699149514710: Mouse moved. x: 798 y: 935
-1699149514832: Mouse moved. x: 795 y: 927
-1699149514842: Mouse moved. x: 790 y: 913
-1699149514846: Mouse moved. x: 783 y: 897
-1699149514856: Mouse moved. x: 773 y: 871
-1699149514862: Mouse moved. x: 764 y: 851
-1699149514871: Mouse moved. x: 754 y: 825
-1699149514876: Mouse moved. x: 739 y: 792
-1699149514888: Mouse moved. x: 729 y: 774
-1699149514898: Mouse moved. x: 716 y: 747
-1699149514902: Mouse moved. x: 707 y: 729
-1699149514912: Mouse moved. x: 696 y: 709
-1699149514918: Mouse moved. x: 685 y: 687
-1699149514928: Mouse moved. x: 680 y: 676
-1699149514938: Mouse moved. x: 675 y: 664
-1699149514942: Mouse moved. x: 670 y: 655
-1699149514952: Mouse moved. x: 665 y: 647
-1699149514957: Mouse moved. x: 663 y: 642
-1699149514968: Mouse moved. x: 661 y: 639
-1699149514972: Mouse moved. x: 661 y: 639
-1699149514982: Mouse moved. x: 660 y: 637
-1699149515028: Mouse moved. x: 660 y: 636
-1699149515038: Mouse moved. x: 660 y: 635
-1699149515048: Mouse moved. x: 660 y: 630
-1699149515054: Mouse moved. x: 660 y: 624
-1699149515064: Mouse moved. x: 660 y: 613
-1699149515067: Mouse moved. x: 660 y: 604
-1699149515078: Mouse moved. x: 657 y: 589
-1699149515088: Mouse moved. x: 655 y: 573
-1699149515094: Mouse moved. x: 652 y: 562
-1699149515104: Mouse moved. x: 650 y: 547
-1699149515110: Mouse moved. x: 647 y: 531
-1699149515120: Mouse moved. x: 643 y: 515
-1699149515130: Mouse moved. x: 642 y: 502
-1699149515135: Mouse moved. x: 640 y: 489
-1699149515144: Mouse moved. x: 638 y: 476
-1699149515150: Mouse moved. x: 637 y: 464
-1699149515160: Mouse moved. x: 633 y: 451
-1699149515164: Mouse moved. x: 632 y: 440
-1699149515173: Mouse moved. x: 630 y: 429
-1699149515184: Mouse moved. x: 629 y: 422
-1699149515189: Mouse moved. x: 624 y: 410
-1699149515200: Mouse moved. x: 624 y: 401
-1699149515204: Mouse moved. x: 621 y: 390
-1699149515214: Mouse moved. x: 621 y: 385
-1699149515223: Mouse moved. x: 621 y: 381
-1699149515230: Mouse moved. x: 621 y: 378
-1699149515240: Mouse moved. x: 620 y: 376
-1699149515246: Mouse moved. x: 620 y: 374
-1699149515256: Mouse moved. x: 620 y: 373
-1699149515266: Mouse moved. x: 620 y: 371
-1699149515270: Mouse moved. x: 620 y: 370
-1699149515280: Mouse moved. x: 620 y: 368
-1699149515286: Mouse moved. x: 618 y: 366
-1699149515296: Mouse moved. x: 618 y: 364
-1699149515304: Mouse moved. x: 618 y: 360
-1699149515310: Mouse moved. x: 618 y: 359
-1699149515320: Mouse moved. x: 618 y: 356
-1699149515325: Mouse moved. x: 618 y: 354
-1699149515335: Mouse moved. x: 618 y: 352
-1699149515342: Mouse moved. x: 618 y: 350
-1699149515351: Mouse moved. x: 618 y: 348
-1699149515362: Mouse moved. x: 618 y: 344
-1699149515366: Mouse moved. x: 618 y: 341
-1699149515376: Mouse moved. x: 618 y: 337
-1699149515382: Mouse moved. x: 618 y: 334
-1699149515392: Mouse moved. x: 618 y: 333
-1699149515395: Mouse moved. x: 618 y: 331
-1699149515406: Mouse moved. x: 618 y: 329
-1699149515416: Mouse moved. x: 618 y: 325
-1699149515421: Mouse moved. x: 618 y: 324
-1699149515432: Mouse moved. x: 618 y: 322
-1699149515436: Mouse moved. x: 618 y: 320
-1699149515446: Mouse moved. x: 618 y: 318
-1699149515458: Mouse moved. x: 618 y: 315
-1699149515462: Mouse moved. x: 620 y: 311
-1699149515471: Mouse moved. x: 620 y: 306
-1699149515478: Mouse moved. x: 622 y: 301
-1699149515487: Mouse moved. x: 624 y: 294
-1699149515498: Mouse moved. x: 624 y: 291
-1699149515502: Mouse moved. x: 626 y: 285
-1699149515512: Mouse moved. x: 630 y: 276
-1699149515518: Mouse moved. x: 633 y: 267
-1699149515528: Mouse moved. x: 636 y: 257
-1699149515532: Mouse moved. x: 639 y: 244
-1699149515542: Mouse moved. x: 641 y: 235
-1699149515552: Mouse moved. x: 646 y: 213
-1699149515557: Mouse moved. x: 646 y: 209
-1699149515568: Mouse moved. x: 646 y: 208
-1699149515574: Mouse moved. x: 646 y: 208
-1699149515584: Mouse moved. x: 646 y: 207
-1699149515801: Mouse moved. x: 646 y: 210
-1699149515806: Mouse moved. x: 645 y: 210
-1699149515816: Mouse moved. x: 645 y: 211
-1699149515822: Mouse moved. x: 645 y: 213
-1699149515840: Mouse moved. x: 644 y: 214
-1699149515870: Mouse moved. x: 644 y: 215
-1699149516504: Key Released: R
-1699149516571: Key Released: Shift
-1699149516596: Key Released: Ctrl
-1699149517053: Mouse moved. x: 646 y: 223
-1699149517059: Mouse moved. x: 649 y: 232
-1699149517072: Mouse moved. x: 650 y: 243
-1699149517076: Mouse moved. x: 654 y: 259
-1699149517086: Mouse moved. x: 659 y: 274
-1699149517092: Mouse moved. x: 666 y: 292
-1699149517102: Mouse moved. x: 676 y: 318
-1699149517112: Mouse moved. x: 692 y: 348
-1699149517116: Mouse moved. x: 699 y: 378
-1699149517126: Mouse moved. x: 717 y: 420
-1699149517132: Mouse moved. x: 735 y: 462
-1699149517142: Mouse moved. x: 746 y: 505
-1699149517145: Mouse moved. x: 759 y: 550
-1699149517156: Mouse moved. x: 764 y: 596
-1699149517166: Mouse moved. x: 781 y: 633
-1699149517172: Mouse moved. x: 796 y: 670
-1699149517181: Mouse moved. x: 815 y: 701
-1699149517188: Mouse moved. x: 828 y: 730
-1699149517198: Mouse moved. x: 832 y: 759
-1699149517208: Mouse moved. x: 836 y: 784
-1699149517212: Mouse moved. x: 840 y: 803
-1699149517221: Mouse moved. x: 848 y: 817
-1699149517228: Mouse moved. x: 856 y: 833
-1699149517238: Mouse moved. x: 860 y: 841
-1699149517242: Mouse moved. x: 865 y: 848
-1699149517252: Mouse moved. x: 869 y: 854
-1699149517262: Mouse moved. x: 871 y: 858
-1699149517268: Mouse moved. x: 873 y: 861
-1699149517278: Mouse moved. x: 877 y: 867
-1699149517282: Mouse moved. x: 879 y: 870
-1699149517292: Mouse moved. x: 880 y: 874
-1699149517304: Mouse moved. x: 883 y: 877
-1699149517308: Mouse moved. x: 885 y: 881
-1699149517318: Mouse moved. x: 888 y: 886
-1699149517324: Mouse moved. x: 890 y: 892
-1699149517335: Mouse moved. x: 893 y: 897
-1699149517344: Mouse moved. x: 894 y: 902
-1699149517348: Mouse moved. x: 897 y: 906
-1699149517358: Mouse moved. x: 899 y: 911
-1699149517364: Mouse moved. x: 900 y: 916
-1699149517374: Mouse moved. x: 900 y: 919
-1699149517378: Mouse moved. x: 902 y: 923
-1699149517390: Mouse moved. x: 903 y: 926
-1699149517394: Mouse moved. x: 903 y: 929
-1699149517404: Mouse moved. x: 903 y: 932
-1699149517414: Mouse moved. x: 903 y: 933
-1699149517420: Mouse moved. x: 903 y: 936
-1699149517430: Mouse moved. x: 903 y: 937
-1699149517436: Mouse moved. x: 903 y: 941
-1699149517446: Mouse moved. x: 903 y: 946
-1699149517450: Mouse moved. x: 903 y: 951
-1699149517459: Mouse moved. x: 903 y: 956
-1699149517470: Mouse moved. x: 901 y: 961
-1699149517476: Mouse moved. x: 901 y: 968
-1699149517486: Mouse moved. x: 898 y: 977
-1699149517489: Mouse moved. x: 898 y: 984
-1699149517500: Mouse moved. x: 897 y: 991
-1699149517510: Mouse moved. x: 896 y: 996
-1699149517516: Mouse moved. x: 894 y: 1003
-1699149517526: Mouse moved. x: 893 y: 1010
-1699149517532: Mouse moved. x: 892 y: 1015
-1699149517542: Mouse moved. x: 892 y: 1022
-1699149517546: Mouse moved. x: 890 y: 1027
-1699149517556: Mouse moved. x: 890 y: 1029
-1699149517566: Mouse moved. x: 889 y: 1034
-1699149517572: Mouse moved. x: 888 y: 1039
-1699149517583: Mouse moved. x: 888 y: 1045
-1699149517588: Mouse moved. x: 887 y: 1049
-1699149517598: Mouse moved. x: 885 y: 1053
-1699149517602: Mouse moved. x: 885 y: 1056
-1699149517612: Mouse moved. x: 884 y: 1061
-1699149517621: Mouse moved. x: 884 y: 1062
-1699149517638: Mouse moved. x: 884 y: 1063
-1699149517644: Mouse moved. x: 883 y: 1063
-1699149517776: Mouse moved. x: 883 y: 1064
-1699149517790: Mouse moved. x: 883 y: 1065
-1699149517810: Mouse moved. x: 883 y: 1066
-1699149518735: Mouse moved. x: 884 y: 1066
-1699149518738: Mouse moved. x: 885 y: 1066
-1699149518748: Mouse moved. x: 887 y: 1065
-1699149518754: Mouse moved. x: 887 y: 1064
-1699149518764: Mouse moved. x: 889 y: 1064
-1699149518774: Mouse moved. x: 890 y: 1063
-1699149518778: Mouse moved. x: 891 y: 1063
-1699149518788: Mouse moved. x: 892 y: 1063
-1699149518804: Mouse moved. x: 893 y: 1062
-1699149518810: Mouse moved. x: 895 y: 1061
-1699149518820: Mouse moved. x: 896 y: 1060
-1699149518830: Mouse moved. x: 898 y: 1060
-1699149518843: Mouse moved. x: 899 y: 1060
-1699149518850: Mouse moved. x: 900 y: 1060
-1699149518860: Mouse moved. x: 902 y: 1059
-1699149518870: Mouse moved. x: 903 y: 1059
-1699149518874: Mouse moved. x: 904 y: 1058
-1699149518884: Mouse moved. x: 904 y: 1058
-1699149518890: Mouse moved. x: 906 y: 1057
-1699149518900: Mouse moved. x: 907 y: 1057
-1699149518910: Mouse moved. x: 908 y: 1057
-1699149519066: Mouse moved. x: 908 y: 1057
-1699149519074: Mouse moved. x: 907 y: 1057
-1699149519083: Mouse moved. x: 906 y: 1057
-1699149519094: Mouse moved. x: 902 y: 1057
-1699149519098: Mouse moved. x: 897 y: 1057
-1699149519108: Mouse moved. x: 892 y: 1057
-1699149519114: Mouse moved. x: 890 y: 1057
-1699149519124: Mouse moved. x: 887 y: 1057
-1699149519134: Mouse moved. x: 880 y: 1057
-1699149519138: Mouse moved. x: 875 y: 1057
-1699149519149: Mouse moved. x: 870 y: 1058
-1699149519154: Mouse moved. x: 865 y: 1058
-1699149519164: Mouse moved. x: 859 y: 1058
-1699149519170: Mouse moved. x: 854 y: 1058
-1699149519180: Mouse moved. x: 849 y: 1058
-1699149519190: Mouse moved. x: 841 y: 1058
-1699149519194: Mouse moved. x: 832 y: 1058
-1699149519204: Mouse moved. x: 830 y: 1058
-1699149519210: Mouse moved. x: 829 y: 1058
-1699149519220: Mouse moved. x: 827 y: 1058
-1699149519230: Mouse moved. x: 826 y: 1058
-1699149519234: Mouse moved. x: 824 y: 1058
-1699149519250: Mouse moved. x: 823 y: 1058
-1699149519260: Mouse moved. x: 823 y: 1058
-1699149519286: Mouse moved. x: 822 y: 1058
-1699149519412: Mouse moved. x: 821 y: 1058
-1699149519437: Mouse moved. x: 820 y: 1058
-1699149519790: Mouse moved. x: 821 y: 1058
-1699149519794: Mouse moved. x: 824 y: 1058
-1699149519804: Mouse moved. x: 825 y: 1058
-1699149519814: Mouse moved. x: 828 y: 1058
-1699149519821: Mouse moved. x: 830 y: 1058
-1699149519830: Mouse moved. x: 835 y: 1058
-1699149519834: Mouse moved. x: 842 y: 1058
-1699149519846: Mouse moved. x: 844 y: 1058
-1699149519849: Mouse moved. x: 849 y: 1058
-1699149519860: Mouse moved. x: 852 y: 1058
-1699149519870: Mouse moved. x: 859 y: 1058
-1699149519876: Mouse moved. x: 864 y: 1057
-1699149519886: Mouse moved. x: 870 y: 1057
-1699149519890: Mouse moved. x: 878 y: 1055
-1699149519900: Mouse moved. x: 883 y: 1054
-1699149519910: Mouse moved. x: 887 y: 1054
-1699149519916: Mouse moved. x: 891 y: 1052
-1699149519926: Mouse moved. x: 896 y: 1052
-1699149519931: Mouse moved. x: 899 y: 1050
-1699149519940: Mouse moved. x: 903 y: 1050
-1699149519953: Mouse moved. x: 905 y: 1049
-1699149519956: Mouse moved. x: 909 y: 1048
-1699149519966: Mouse moved. x: 912 y: 1048
-1699149519972: Mouse moved. x: 913 y: 1047
-1699149519982: Mouse moved. x: 915 y: 1047
-1699149519986: Mouse moved. x: 916 y: 1047
-1699149519996: Mouse moved. x: 916 y: 1046
-1699149520006: Mouse moved. x: 917 y: 1046
-1699149520053: Mouse moved. x: 918 y: 1046
-1699149520864: Mouse moved. x: 914 y: 1039
-1699149520874: Mouse moved. x: 903 y: 1018
-1699149520889: Mouse moved. x: 859 y: 940
-1699149520894: Mouse moved. x: 822 y: 875
-1699149520905: Mouse moved. x: 765 y: 796
-1699149520914: Mouse moved. x: 697 y: 707
-1699149520919: Mouse moved. x: 612 y: 605
-1699149520930: Mouse moved. x: 519 y: 494
-1699149520934: Mouse moved. x: 423 y: 391
-1699149520944: Mouse moved. x: 345 y: 313
-1699149520954: Mouse moved. x: 273 y: 244
-1699149520960: Mouse moved. x: 218 y: 195
-1699149520969: Mouse moved. x: 180 y: 160
-1699149520973: Mouse moved. x: 159 y: 139
-1699149520984: Mouse moved. x: 149 y: 129
-1699149520990: Mouse moved. x: 147 y: 125
-1699149520999: Mouse moved. x: 146 y: 124
-1699149521136: Mouse moved. x: 146 y: 124
-1699149521146: Mouse moved. x: 146 y: 125
-1699149521152: Mouse moved. x: 146 y: 126
-1699149521176: Mouse moved. x: 146 y: 127
-1699149521182: Mouse moved. x: 146 y: 128
-1699149521192: Mouse moved. x: 146 y: 129
-1699149521206: Mouse moved. x: 146 y: 130
-1699149521248: Mouse moved. x: 146 y: 131
-1699149521258: Mouse moved. x: 146 y: 132
-1699149521327: Mouse moved. x: 146 y: 133
-1699149521344: Mouse moved. x: 146 y: 134
-1699149521384: Mouse moved. x: 146 y: 134
-1699149521510: Mouse moved. x: 146 y: 135
-1699149521530: Mouse moved. x: 147 y: 137
-1699149521534: Mouse moved. x: 147 y: 140
-1699149521544: Mouse moved. x: 149 y: 142
-1699149521550: Mouse moved. x: 152 y: 145
-1699149521560: Mouse moved. x: 154 y: 148
-1699149521570: Mouse moved. x: 158 y: 152
-1699149521576: Mouse moved. x: 160 y: 154
-1699149521586: Mouse moved. x: 163 y: 157
-1699149521589: Mouse moved. x: 167 y: 163
-1699149521600: Mouse moved. x: 172 y: 167
-1699149521610: Mouse moved. x: 176 y: 173
-1699149521616: Mouse moved. x: 180 y: 175
-1699149521626: Mouse moved. x: 186 y: 181
-1699149521630: Mouse moved. x: 190 y: 186
-1699149521639: Mouse moved. x: 195 y: 189
-1699149521646: Mouse moved. x: 199 y: 193
-1699149521656: Mouse moved. x: 203 y: 196
-1699149521666: Mouse moved. x: 208 y: 201
-1699149521670: Mouse moved. x: 212 y: 204
-1699149521682: Mouse moved. x: 216 y: 207
-1699149521686: Mouse moved. x: 219 y: 209
-1699149521695: Mouse moved. x: 222 y: 213
-1699149521706: Mouse moved. x: 224 y: 215
-1699149521712: Mouse moved. x: 228 y: 218
-1699149521722: Mouse moved. x: 231 y: 220
-1699149521726: Mouse moved. x: 235 y: 223
-1699149521736: Mouse moved. x: 237 y: 224
-1699149521746: Mouse moved. x: 241 y: 226
-1699149521752: Mouse moved. x: 245 y: 229
-1699149521762: Mouse moved. x: 247 y: 231
-1699149521766: Mouse moved. x: 249 y: 232
-1699149521776: Mouse moved. x: 254 y: 236
-1699149521782: Mouse moved. x: 257 y: 237
-1699149521792: Mouse moved. x: 260 y: 240
-1699149521802: Mouse moved. x: 264 y: 242
-1699149521808: Mouse moved. x: 268 y: 243
-1699149521818: Mouse moved. x: 269 y: 245
-1699149521821: Mouse moved. x: 274 y: 248
-1699149521832: Mouse moved. x: 277 y: 250
-1699149521838: Mouse moved. x: 280 y: 252
-1699149521848: Mouse moved. x: 283 y: 254
-1699149521858: Mouse moved. x: 286 y: 255
-1699149521862: Mouse moved. x: 288 y: 257
-1699149521872: Mouse moved. x: 290 y: 260
-1699149521878: Mouse moved. x: 292 y: 260
-1699149521888: Mouse moved. x: 295 y: 262
-1699149521898: Mouse moved. x: 297 y: 264
-1699149521902: Mouse moved. x: 299 y: 264
-1699149521914: Mouse moved. x: 304 y: 268
-1699149521918: Mouse moved. x: 311 y: 268
-1699149521928: Mouse moved. x: 315 y: 269
-1699149521933: Mouse moved. x: 320 y: 271
-1699149521944: Mouse moved. x: 324 y: 271
-1699149521954: Mouse moved. x: 329 y: 272
-1699149521958: Mouse moved. x: 333 y: 272
-1699149521968: Mouse moved. x: 338 y: 273
-1699149521974: Mouse moved. x: 341 y: 273
-1699149521984: Mouse moved. x: 345 y: 274
-1699149521994: Mouse moved. x: 350 y: 276
-1699149521998: Mouse moved. x: 355 y: 277
-1699149522008: Mouse moved. x: 362 y: 277
-1699149522013: Mouse moved. x: 367 y: 278
-1699149522023: Mouse moved. x: 371 y: 278
-1699149522034: Mouse moved. x: 376 y: 278
-1699149522039: Mouse moved. x: 380 y: 278
-1699149522049: Mouse moved. x: 386 y: 278
-1699149522054: Mouse moved. x: 390 y: 278
-1699149522064: Mouse moved. x: 392 y: 278
-1699149522070: Mouse moved. x: 397 y: 278
-1699149522080: Mouse moved. x: 399 y: 277
-1699149522089: Mouse moved. x: 401 y: 276
-1699149522094: Mouse moved. x: 403 y: 275
-1699149522103: Mouse moved. x: 406 y: 272
-1699149522110: Mouse moved. x: 409 y: 271
-1699149522120: Mouse moved. x: 410 y: 269
-1699149522130: Mouse moved. x: 413 y: 265
-1699149522136: Mouse moved. x: 417 y: 261
-1699149522146: Mouse moved. x: 419 y: 259
-1699149522152: Mouse moved. x: 422 y: 254
-1699149522160: Mouse moved. x: 423 y: 250
-1699149522166: Mouse moved. x: 427 y: 245
-1699149522176: Mouse moved. x: 428 y: 242
-1699149522186: Mouse moved. x: 431 y: 236
-1699149522190: Mouse moved. x: 433 y: 231
-1699149522201: Mouse moved. x: 433 y: 226
-1699149522205: Mouse moved. x: 434 y: 221
-1699149522216: Mouse moved. x: 436 y: 212
-1699149522226: Mouse moved. x: 438 y: 208
-1699149522230: Mouse moved. x: 438 y: 205
-1699149522240: Mouse moved. x: 438 y: 200
-1699149522246: Mouse moved. x: 438 y: 197
-1699149522256: Mouse moved. x: 438 y: 193
-1699149522266: Mouse moved. x: 438 y: 191
-1699149522271: Mouse moved. x: 438 y: 189
-1699149522282: Mouse moved. x: 438 y: 185
-1699149522287: Mouse moved. x: 438 y: 185
-1699149522296: Mouse moved. x: 438 y: 183
-1699149522302: Mouse moved. x: 437 y: 182
-1699149522312: Mouse moved. x: 436 y: 178
-1699149522322: Mouse moved. x: 435 y: 177
-1699149522326: Mouse moved. x: 433 y: 175
-1699149522336: Mouse moved. x: 431 y: 173
-1699149522342: Mouse moved. x: 429 y: 171
-1699149522352: Mouse moved. x: 425 y: 170
-1699149522362: Mouse moved. x: 420 y: 167
-1699149522367: Mouse moved. x: 415 y: 166
-1699149522378: Mouse moved. x: 408 y: 166
-1699149522382: Mouse moved. x: 403 y: 166
-1699149522392: Mouse moved. x: 400 y: 166
-1699149522398: Mouse moved. x: 395 y: 166
-1699149522408: Mouse moved. x: 390 y: 166
-1699149522418: Mouse moved. x: 382 y: 166
-1699149522422: Mouse moved. x: 377 y: 166
-1699149522432: Mouse moved. x: 369 y: 166
-1699149522438: Mouse moved. x: 362 y: 166
-1699149522448: Mouse moved. x: 355 y: 166
-1699149522458: Mouse moved. x: 336 y: 166
-1699149522461: Mouse moved. x: 331 y: 166
-1699149522472: Mouse moved. x: 329 y: 166
-1699149522478: Mouse moved. x: 327 y: 166
-1699149522488: Mouse moved. x: 326 y: 166
-1699149522494: Mouse moved. x: 324 y: 166
-1699149522514: Mouse moved. x: 323 y: 166
-1699149522519: Mouse moved. x: 322 y: 166
-1699149522528: Mouse moved. x: 321 y: 166
-1699149522534: Mouse moved. x: 321 y: 166
-1699149522554: Mouse moved. x: 320 y: 166
-1699149522558: Mouse moved. x: 320 y: 166
-1699149522568: Mouse moved. x: 319 y: 166
-1699149522574: Mouse moved. x: 318 y: 167
-1699149522587: Mouse moved. x: 317 y: 168
-1699149522597: Mouse moved. x: 316 y: 168
-1699149522610: Mouse moved. x: 315 y: 169
-1699149522614: Mouse moved. x: 315 y: 170
-1699149522624: Mouse moved. x: 313 y: 172
-1699149522629: Mouse moved. x: 313 y: 173
-1699149522640: Mouse moved. x: 312 y: 175
-1699149522650: Mouse moved. x: 311 y: 178
-1699149522653: Mouse moved. x: 310 y: 180
-1699149522663: Mouse moved. x: 309 y: 182
-1699149522670: Mouse moved. x: 307 y: 190
-1699149522680: Mouse moved. x: 304 y: 196
-1699149522690: Mouse moved. x: 303 y: 199
-1699149522694: Mouse moved. x: 302 y: 204
-1699149522704: Mouse moved. x: 302 y: 208
-1699149522710: Mouse moved. x: 301 y: 213
-1699149522720: Mouse moved. x: 298 y: 216
-1699149522725: Mouse moved. x: 298 y: 221
-1699149522736: Mouse moved. x: 297 y: 226
-1699149522746: Mouse moved. x: 297 y: 228
-1699149522755: Mouse moved. x: 297 y: 230
-1699149522760: Mouse moved. x: 296 y: 234
-1699149522766: Mouse moved. x: 296 y: 235
-1699149522776: Mouse moved. x: 296 y: 238
-1699149522786: Mouse moved. x: 296 y: 240
-1699149522789: Mouse moved. x: 296 y: 242
-1699149522800: Mouse moved. x: 296 y: 244
-1699149522806: Mouse moved. x: 296 y: 245
-1699149522816: Mouse moved. x: 296 y: 248
-1699149522820: Mouse moved. x: 296 y: 249
-1699149522830: Mouse moved. x: 296 y: 250
-1699149522842: Mouse moved. x: 296 y: 252
-1699149522855: Mouse moved. x: 296 y: 254
-1699149522862: Mouse moved. x: 297 y: 257
-1699149522882: Mouse moved. x: 298 y: 257
-1699149522886: Mouse moved. x: 299 y: 260
-1699149522902: Mouse moved. x: 300 y: 260
-1699149522912: Mouse moved. x: 301 y: 262
-1699149522922: Mouse moved. x: 303 y: 264
-1699149522926: Mouse moved. x: 305 y: 264
-1699149522936: Mouse moved. x: 307 y: 264
-1699149522942: Mouse moved. x: 308 y: 265
-1699149522952: Mouse moved. x: 310 y: 265
-1699149522958: Mouse moved. x: 311 y: 265
-1699149522969: Mouse moved. x: 313 y: 265
-1699149522978: Mouse moved. x: 315 y: 265
-1699149522982: Mouse moved. x: 316 y: 265
-1699149522992: Mouse moved. x: 318 y: 265
-1699149522998: Mouse moved. x: 323 y: 265
-1699149523009: Mouse moved. x: 325 y: 265
-1699149523012: Mouse moved. x: 337 y: 263
-1699149523022: Mouse moved. x: 341 y: 261
-1699149523032: Mouse moved. x: 346 y: 259
-1699149523038: Mouse moved. x: 349 y: 259
-1699149523048: Mouse moved. x: 353 y: 256
-1699149523052: Mouse moved. x: 356 y: 255
-1699149523064: Mouse moved. x: 357 y: 254
-1699149523074: Mouse moved. x: 359 y: 253
-1699149523081: Mouse moved. x: 362 y: 252
-1699149523088: Mouse moved. x: 363 y: 251
-1699149523094: Mouse moved. x: 365 y: 250
-1699149523104: Mouse moved. x: 365 y: 249
-1699149523114: Mouse moved. x: 366 y: 249
-1699149523118: Mouse moved. x: 366 y: 248
-1699149523128: Mouse moved. x: 366 y: 248
-1699149523134: Mouse moved. x: 367 y: 247
-1699149523148: Mouse moved. x: 367 y: 246
-1699149523168: Mouse moved. x: 368 y: 246
-1699149523173: Mouse moved. x: 368 y: 245
-1699149524223: Key Released: S
-1699149524272: Key Released: Shift
-1699149524292: Key Released: Ctrl
-1699149525255: Key Released: Tab
-1699149525569: Key Released: Tab
-1699149525677: Key Released: Alt
-1699149526061: Key Released: Alt
-1699149526067: Key Released: Tab
-1699149526460: Mouse moved. x: 374 y: 243
-1699149539592: Key Released: Ctrl
-1699149539592: Key Released: Shift
-1699149539592: Key Released: 1
-1699149539593: Key Released: 1
-1699149539593: Key Released: Shift
-1699149539593: Key Released: Ctrl
-1699149539593: Key Released: R
-1699149539593: Key Released: Shift
-1699149539593: Key Released: Ctrl
-1699149539593: Mouse moved. x: 645 y: 222
-1699149539594: Mouse moved. x: 649 y: 231
-1699149539594: Mouse moved. x: 650 y: 242
-1699149539594: Mouse moved. x: 654 y: 259
-1699149539594: Mouse moved. x: 659 y: 274
-1699149539594: Mouse moved. x: 665 y: 291
-1699149539594: Mouse moved. x: 675 y: 317
-1699149539594: Mouse moved. x: 691 y: 347
-1699149539594: Mouse moved. x: 699 y: 377
-1699149539594: Mouse moved. x: 716 y: 420
-1699149539594: Mouse moved. x: 735 y: 461
-1699149539594: Mouse moved. x: 745 y: 505
-1699149539594: Mouse moved. x: 759 y: 550
-1699149539594: Mouse moved. x: 764 y: 595
-1699149539594: Mouse moved. x: 780 y: 632
-1699149539594: Mouse moved. x: 795 y: 670
-1699149539594: Mouse moved. x: 815 y: 700
-1699149539594: Mouse moved. x: 827 y: 730
-1699149539594: Mouse moved. x: 831 y: 759
-1699149539594: Mouse moved. x: 835 y: 784
-1699149539594: Mouse moved. x: 840 y: 802
-1699149539594: Mouse moved. x: 847 y: 816
-1699149539594: Mouse moved. x: 855 y: 832
-1699149539594: Mouse moved. x: 860 y: 840
-1699149539594: Mouse moved. x: 865 y: 847
-1699149539594: Mouse moved. x: 869 y: 854
-1699149539594: Mouse moved. x: 870 y: 857
-1699149539594: Mouse moved. x: 872 y: 860
-1699149539594: Mouse moved. x: 876 y: 866
-1699149539594: Mouse moved. x: 879 y: 870
-1699149539594: Mouse moved. x: 880 y: 874
-1699149539594: Mouse moved. x: 882 y: 876
-1699149539594: Mouse moved. x: 885 y: 880
-1699149539594: Mouse moved. x: 887 y: 885
-1699149539594: Mouse moved. x: 890 y: 891
-1699149539594: Mouse moved. x: 892 y: 896
-1699149539594: Mouse moved. x: 894 y: 901
-1699149539594: Mouse moved. x: 896 y: 905
-1699149539594: Mouse moved. x: 899 y: 910
-1699149539594: Mouse moved. x: 900 y: 915
-1699149539594: Mouse moved. x: 900 y: 919
-1699149539594: Mouse moved. x: 901 y: 922
-1699149539594: Mouse moved. x: 902 y: 925
-1699149539594: Mouse moved. x: 902 y: 929
-1699149539594: Mouse moved. x: 902 y: 931
-1699149539594: Mouse moved. x: 902 y: 932
-1699149539594: Mouse moved. x: 902 y: 935
-1699149539594: Mouse moved. x: 902 y: 936
-1699149539594: Mouse moved. x: 902 y: 940
-1699149539594: Mouse moved. x: 902 y: 945
-1699149539594: Mouse moved. x: 902 y: 950
-1699149539594: Mouse moved. x: 902 y: 955
-1699149539594: Mouse moved. x: 900 y: 960
-1699149539594: Mouse moved. x: 900 y: 967
-1699149539594: Mouse moved. x: 897 y: 976
-1699149539594: Mouse moved. x: 897 y: 984
-1699149539594: Mouse moved. x: 896 y: 990
-1699149539594: Mouse moved. x: 895 y: 995
-1699149539594: Mouse moved. x: 894 y: 1002
-1699149539594: Mouse moved. x: 892 y: 1010
-1699149539594: Mouse moved. x: 891 y: 1015
-1699149539594: Mouse moved. x: 891 y: 1021
-1699149539594: Mouse moved. x: 890 y: 1026
-1699149539594: Mouse moved. x: 890 y: 1029
-1699149539594: Mouse moved. x: 889 y: 1034
-1699149539594: Mouse moved. x: 887 y: 1039
-1699149539594: Mouse moved. x: 887 y: 1045
-1699149539594: Mouse moved. x: 886 y: 1049
-1699149539594: Mouse moved. x: 885 y: 1052
-1699149539594: Mouse moved. x: 885 y: 1055
-1699149539594: Mouse moved. x: 884 y: 1060
-1699149539594: Mouse moved. x: 884 y: 1061
-1699149539594: Mouse moved. x: 884 y: 1062
-1699149539594: Mouse moved. x: 882 y: 1062
-1699149539594: Mouse moved. x: 882 y: 1064
-1699149539594: Mouse moved. x: 882 y: 1065
-1699149539594: Mouse moved. x: 882 y: 1065
-1699149539595: Mouse moved. x: 884 y: 1065
-1699149539595: Mouse moved. x: 885 y: 1065
-1699149539595: Mouse moved. x: 886 y: 1065
-1699149539595: Mouse moved. x: 886 y: 1064
-1699149539595: Mouse moved. x: 889 y: 1064
-1699149539595: Mouse moved. x: 890 y: 1062
-1699149539595: Mouse moved. x: 890 y: 1062
-1699149539595: Mouse moved. x: 891 y: 1062
-1699149539595: Mouse moved. x: 892 y: 1061
-1699149539595: Mouse moved. x: 895 y: 1060
-1699149539595: Mouse moved. x: 895 y: 1060
-1699149539595: Mouse moved. x: 897 y: 1060
-1699149539595: Mouse moved. x: 899 y: 1060
-1699149539595: Mouse moved. x: 900 y: 1060
-1699149539595: Mouse moved. x: 901 y: 1059
-1699149539595: Mouse moved. x: 902 y: 1059
-1699149539595: Mouse moved. x: 904 y: 1057
-1699149539595: Mouse moved. x: 904 y: 1057
-1699149539595: Mouse moved. x: 905 y: 1056
-1699149539595: Mouse moved. x: 906 y: 1056
-1699149539595: Mouse moved. x: 907 y: 1056
-1699149539595: Mouse moved. x: 907 y: 1056
-1699149539595: Mouse moved. x: 906 y: 1056
-1699149539595: Mouse moved. x: 905 y: 1056
-1699149539595: Mouse moved. x: 901 y: 1056
-1699149539595: Mouse moved. x: 896 y: 1056
-1699149539595: Mouse moved. x: 891 y: 1056
-1699149539595: Mouse moved. x: 890 y: 1056
-1699149539595: Mouse moved. x: 886 y: 1056
-1699149539595: Mouse moved. x: 880 y: 1056
-1699149539595: Mouse moved. x: 875 y: 1056
-1699149539595: Mouse moved. x: 870 y: 1057
-1699149539595: Mouse moved. x: 865 y: 1057
-1699149539595: Mouse moved. x: 859 y: 1057
-1699149539595: Mouse moved. x: 854 y: 1057
-1699149539595: Mouse moved. x: 849 y: 1057
-1699149539595: Mouse moved. x: 840 y: 1057
-1699149539595: Mouse moved. x: 831 y: 1057
-1699149539595: Mouse moved. x: 830 y: 1057
-1699149539595: Mouse moved. x: 829 y: 1057
-1699149539595: Mouse moved. x: 826 y: 1057
-1699149539595: Mouse moved. x: 825 y: 1057
-1699149539595: Mouse moved. x: 824 y: 1057
-1699149539595: Mouse moved. x: 822 y: 1057
-1699149539595: Mouse moved. x: 822 y: 1057
-1699149539595: Mouse moved. x: 821 y: 1057
-1699149539595: Mouse moved. x: 820 y: 1057
-1699149539595: Mouse moved. x: 820 y: 1057
-1699149539595: Mouse moved. x: 824 y: 1057
-1699149539595: Mouse moved. x: 825 y: 1057
-1699149539595: Mouse moved. x: 827 y: 1057
-1699149539595: Mouse moved. x: 830 y: 1057
-1699149539595: Mouse moved. x: 835 y: 1057
-1699149539595: Mouse moved. x: 841 y: 1057
-1699149539595: Mouse moved. x: 844 y: 1057
-1699149539595: Mouse moved. x: 849 y: 1057
-1699149539595: Mouse moved. x: 851 y: 1057
-1699149539595: Mouse moved. x: 859 y: 1057
-1699149539595: Mouse moved. x: 864 y: 1056
-1699149539595: Mouse moved. x: 870 y: 1056
-1699149539595: Mouse moved. x: 877 y: 1055
-1699149539595: Mouse moved. x: 882 y: 1054
-1699149539595: Mouse moved. x: 886 y: 1054
-1699149539595: Mouse moved. x: 890 y: 1051
-1699149539595: Mouse moved. x: 895 y: 1051
-1699149539595: Mouse moved. x: 899 y: 1050
-1699149539595: Mouse moved. x: 902 y: 1050
-1699149539595: Mouse moved. x: 905 y: 1049
-1699149539595: Mouse moved. x: 909 y: 1047
-1699149539595: Mouse moved. x: 911 y: 1047
-1699149539595: Mouse moved. x: 912 y: 1046
-1699149539595: Mouse moved. x: 915 y: 1046
-1699149539595: Mouse moved. x: 915 y: 1046
-1699149539595: Mouse moved. x: 915 y: 1045
-1699149539595: Mouse moved. x: 916 y: 1045
-1699149539595: Mouse moved. x: 917 y: 1045
-1699149539596: Mouse moved. x: 914 y: 1039
-1699149539596: Mouse moved. x: 902 y: 1017
-1699149539596: Mouse moved. x: 859 y: 940
-1699149539596: Mouse moved. x: 821 y: 875
-1699149539596: Mouse moved. x: 765 y: 795
-1699149539596: Mouse moved. x: 696 y: 706
-1699149539596: Mouse moved. x: 611 y: 605
-1699149539596: Mouse moved. x: 519 y: 494
-1699149539596: Mouse moved. x: 422 y: 390
-1699149539596: Mouse moved. x: 345 y: 312
-1699149539596: Mouse moved. x: 272 y: 244
-1699149539596: Mouse moved. x: 217 y: 195
-1699149539596: Mouse moved. x: 180 y: 160
-1699149539596: Mouse moved. x: 159 y: 139
-1699149539596: Mouse moved. x: 149 y: 129
-1699149539596: Mouse moved. x: 146 y: 125
-1699149539596: Mouse moved. x: 145 y: 124
-1699149539596: Mouse moved. x: 145 y: 124
-1699149539596: Mouse moved. x: 145 y: 125
-1699149539596: Mouse moved. x: 145 y: 125
-1699149539596: Mouse moved. x: 145 y: 126
-1699149539596: Mouse moved. x: 145 y: 127
-1699149539596: Mouse moved. x: 145 y: 129
-1699149539596: Mouse moved. x: 145 y: 130
-1699149539596: Mouse moved. x: 145 y: 130
-1699149539596: Mouse moved. x: 145 y: 131
-1699149539596: Mouse moved. x: 145 y: 132
-1699149539596: Mouse moved. x: 145 y: 134
-1699149539596: Mouse moved. x: 145 y: 134
-1699149539596: Mouse moved. x: 145 y: 135
-1699149539596: Mouse moved. x: 146 y: 136
-1699149539596: Mouse moved. x: 146 y: 140
-1699149539596: Mouse moved. x: 149 y: 141
-1699149539596: Mouse moved. x: 151 y: 145
-1699149539596: Mouse moved. x: 154 y: 147
-1699149539596: Mouse moved. x: 157 y: 151
-1699149539596: Mouse moved. x: 160 y: 154
-1699149539596: Mouse moved. x: 162 y: 156
-1699149539596: Mouse moved. x: 166 y: 162
-1699149539596: Mouse moved. x: 171 y: 166
-1699149539596: Mouse moved. x: 175 y: 172
-1699149539596: Mouse moved. x: 180 y: 175
-1699149539596: Mouse moved. x: 185 y: 180
-1699149539596: Mouse moved. x: 190 y: 185
-1699149539596: Mouse moved. x: 195 y: 189
-1699149539596: Mouse moved. x: 199 y: 192
-1699149539596: Mouse moved. x: 202 y: 195
-1699149539596: Mouse moved. x: 207 y: 200
-1699149539596: Mouse moved. x: 211 y: 204
-1699149539596: Mouse moved. x: 215 y: 206
-1699149539596: Mouse moved. x: 219 y: 209
-1699149539596: Mouse moved. x: 221 y: 212
-1699149539596: Mouse moved. x: 224 y: 215
-1699149539596: Mouse moved. x: 227 y: 217
-1699149539596: Mouse moved. x: 230 y: 220
-1699149539596: Mouse moved. x: 235 y: 222
-1699149539596: Mouse moved. x: 236 y: 224
-1699149539596: Mouse moved. x: 240 y: 225
-1699149539596: Mouse moved. x: 245 y: 229
-1699149539596: Mouse moved. x: 246 y: 230
-1699149539596: Mouse moved. x: 249 y: 231
-1699149539596: Mouse moved. x: 254 y: 235
-1699149539596: Mouse moved. x: 256 y: 236
-1699149539596: Mouse moved. x: 260 y: 240
-1699149539596: Mouse moved. x: 264 y: 241
-1699149539596: Mouse moved. x: 267 y: 242
-1699149539596: Mouse moved. x: 269 y: 245
-1699149539596: Mouse moved. x: 274 y: 247
-1699149539596: Mouse moved. x: 276 y: 250
-1699149539596: Mouse moved. x: 280 y: 251
-1699149539596: Mouse moved. x: 282 y: 254
-1699149539596: Mouse moved. x: 285 y: 255
-1699149539596: Mouse moved. x: 287 y: 256
-1699149539596: Mouse moved. x: 290 y: 260
-1699149539596: Mouse moved. x: 291 y: 260
-1699149539596: Mouse moved. x: 295 y: 261
-1699149539596: Mouse moved. x: 296 y: 264
-1699149539596: Mouse moved. x: 299 y: 264
-1699149539596: Mouse moved. x: 304 y: 267
-1699149539596: Mouse moved. x: 310 y: 267
-1699149539596: Mouse moved. x: 315 y: 269
-1699149539596: Mouse moved. x: 320 y: 270
-1699149539596: Mouse moved. x: 324 y: 270
-1699149539596: Mouse moved. x: 329 y: 271
-1699149539596: Mouse moved. x: 332 y: 271
-1699149539596: Mouse moved. x: 337 y: 272
-1699149539596: Mouse moved. x: 340 y: 272
-1699149539596: Mouse moved. x: 345 y: 274
-1699149539596: Mouse moved. x: 350 y: 275
-1699149539596: Mouse moved. x: 355 y: 276
-1699149539596: Mouse moved. x: 361 y: 276
-1699149539596: Mouse moved. x: 366 y: 277
-1699149539596: Mouse moved. x: 370 y: 277
-1699149539596: Mouse moved. x: 375 y: 277
-1699149539596: Mouse moved. x: 380 y: 277
-1699149539596: Mouse moved. x: 385 y: 277
-1699149539596: Mouse moved. x: 390 y: 277
-1699149539596: Mouse moved. x: 391 y: 277
-1699149539596: Mouse moved. x: 396 y: 277
-1699149539596: Mouse moved. x: 399 y: 276
-1699149539596: Mouse moved. x: 400 y: 275
-1699149539596: Mouse moved. x: 402 y: 275
-1699149539596: Mouse moved. x: 405 y: 271
-1699149539596: Mouse moved. x: 409 y: 270
-1699149539596: Mouse moved. x: 410 y: 269
-1699149539596: Mouse moved. x: 412 y: 265
-1699149539596: Mouse moved. x: 416 y: 260
-1699149539596: Mouse moved. x: 419 y: 259
-1699149539596: Mouse moved. x: 421 y: 254
-1699149539596: Mouse moved. x: 422 y: 250
-1699149539596: Mouse moved. x: 426 y: 245
-1699149539596: Mouse moved. x: 427 y: 241
-1699149539596: Mouse moved. x: 430 y: 235
-1699149539596: Mouse moved. x: 432 y: 230
-1699149539596: Mouse moved. x: 432 y: 225
-1699149539596: Mouse moved. x: 434 y: 220
-1699149539596: Mouse moved. x: 435 y: 211
-1699149539596: Mouse moved. x: 437 y: 207
-1699149539596: Mouse moved. x: 437 y: 205
-1699149539596: Mouse moved. x: 437 y: 200
-1699149539596: Mouse moved. x: 437 y: 196
-1699149539596: Mouse moved. x: 437 y: 192
-1699149539596: Mouse moved. x: 437 y: 190
-1699149539596: Mouse moved. x: 437 y: 189
-1699149539596: Mouse moved. x: 437 y: 185
-1699149539596: Mouse moved. x: 437 y: 185
-1699149539596: Mouse moved. x: 437 y: 182
-1699149539596: Mouse moved. x: 436 y: 181
-1699149539596: Mouse moved. x: 435 y: 177
-1699149539596: Mouse moved. x: 435 y: 176
-1699149539596: Mouse moved. x: 432 y: 175
-1699149539596: Mouse moved. x: 430 y: 172
-1699149539596: Mouse moved. x: 429 y: 170
-1699149539596: Mouse moved. x: 425 y: 170
-1699149539596: Mouse moved. x: 420 y: 166
-1699149539596: Mouse moved. x: 415 y: 165
-1699149539596: Mouse moved. x: 407 y: 165
-1699149539596: Mouse moved. x: 402 y: 165
-1699149539596: Mouse moved. x: 400 y: 165
-1699149539596: Mouse moved. x: 395 y: 165
-1699149539596: Mouse moved. x: 390 y: 165
-1699149539596: Mouse moved. x: 381 y: 165
-1699149539596: Mouse moved. x: 376 y: 165
-1699149539596: Mouse moved. x: 369 y: 165
-1699149539596: Mouse moved. x: 361 y: 165
-1699149539596: Mouse moved. x: 355 y: 165
-1699149539596: Mouse moved. x: 335 y: 165
-1699149539596: Mouse moved. x: 330 y: 165
-1699149539596: Mouse moved. x: 329 y: 165
-1699149539596: Mouse moved. x: 326 y: 165
-1699149539596: Mouse moved. x: 325 y: 165
-1699149539596: Mouse moved. x: 324 y: 165
-1699149539596: Mouse moved. x: 322 y: 165
-1699149539596: Mouse moved. x: 321 y: 165
-1699149539596: Mouse moved. x: 320 y: 165
-1699149539596: Mouse moved. x: 320 y: 165
-1699149539596: Mouse moved. x: 320 y: 165
-1699149539596: Mouse moved. x: 320 y: 165
-1699149539596: Mouse moved. x: 319 y: 165
-1699149539596: Mouse moved. x: 317 y: 166
-1699149539596: Mouse moved. x: 316 y: 167
-1699149539596: Mouse moved. x: 315 y: 167
-1699149539596: Mouse moved. x: 315 y: 169
-1699149539596: Mouse moved. x: 315 y: 170
-1699149539596: Mouse moved. x: 312 y: 171
-1699149539596: Mouse moved. x: 312 y: 172
-1699149539596: Mouse moved. x: 311 y: 175
-1699149539596: Mouse moved. x: 310 y: 177
-1699149539596: Mouse moved. x: 310 y: 180
-1699149539596: Mouse moved. x: 309 y: 181
-1699149539596: Mouse moved. x: 306 y: 190
-1699149539596: Mouse moved. x: 304 y: 195
-1699149539596: Mouse moved. x: 302 y: 199
-1699149539596: Mouse moved. x: 301 y: 204
-1699149539596: Mouse moved. x: 301 y: 207
-1699149539596: Mouse moved. x: 300 y: 212
-1699149539596: Mouse moved. x: 297 y: 215
-1699149539596: Mouse moved. x: 297 y: 220
-1699149539596: Mouse moved. x: 296 y: 225
-1699149539596: Mouse moved. x: 296 y: 227
-1699149539596: Mouse moved. x: 296 y: 230
-1699149539596: Mouse moved. x: 295 y: 234
-1699149539596: Mouse moved. x: 295 y: 235
-1699149539596: Mouse moved. x: 295 y: 237
-1699149539596: Mouse moved. x: 295 y: 240
-1699149539596: Mouse moved. x: 295 y: 241
-1699149539596: Mouse moved. x: 295 y: 244
-1699149539596: Mouse moved. x: 295 y: 245
-1699149539596: Mouse moved. x: 295 y: 247
-1699149539596: Mouse moved. x: 295 y: 249
-1699149539596: Mouse moved. x: 295 y: 250
-1699149539596: Mouse moved. x: 295 y: 251
-1699149539596: Mouse moved. x: 295 y: 254
-1699149539596: Mouse moved. x: 296 y: 256
-1699149539596: Mouse moved. x: 297 y: 256
-1699149539596: Mouse moved. x: 299 y: 260
-1699149539596: Mouse moved. x: 300 y: 260
-1699149539596: Mouse moved. x: 300 y: 261
-1699149539596: Mouse moved. x: 302 y: 264
-1699149539596: Mouse moved. x: 305 y: 264
-1699149539596: Mouse moved. x: 306 y: 264
-1699149539596: Mouse moved. x: 307 y: 265
-1699149539596: Mouse moved. x: 310 y: 265
-1699149539596: Mouse moved. x: 310 y: 265
-1699149539596: Mouse moved. x: 312 y: 265
-1699149539596: Mouse moved. x: 315 y: 265
-1699149539596: Mouse moved. x: 315 y: 265
-1699149539596: Mouse moved. x: 317 y: 265
-1699149539596: Mouse moved. x: 322 y: 265
-1699149539596: Mouse moved. x: 325 y: 265
-1699149539596: Mouse moved. x: 336 y: 262
-1699149539596: Mouse moved. x: 340 y: 260
-1699149539596: Mouse moved. x: 345 y: 259
-1699149539596: Mouse moved. x: 349 y: 259
-1699149539596: Mouse moved. x: 352 y: 255
-1699149539596: Mouse moved. x: 355 y: 255
-1699149539596: Mouse moved. x: 356 y: 254
-1699149539596: Mouse moved. x: 359 y: 252
-1699149539596: Mouse moved. x: 361 y: 251
-1699149539596: Mouse moved. x: 362 y: 250
-1699149539596: Mouse moved. x: 365 y: 250
-1699149539596: Mouse moved. x: 365 y: 249
-1699149539596: Mouse moved. x: 365 y: 249
-1699149539596: Mouse moved. x: 365 y: 247
-1699149539596: Mouse moved. x: 365 y: 247
-1699149539596: Mouse moved. x: 366 y: 246
-1699149539596: Mouse moved. x: 366 y: 245
-1699149539596: Mouse moved. x: 367 y: 245
-1699149539596: Mouse moved. x: 367 y: 245
-1699149545447: Key Released: Tab
-1699149545878: Key Released: Tab
-1699149546411: Key Released: Shift
-1699149546612: Key Released: Tab
-1699149546785: Key Released: Tab
-1699149546975: Key Released: Tab
-1699149547167: Key Released: Tab
-1699149547266: Key Released: Alt
-1699149547665: Key Released: Tab
-1699149548130: Key Released: Shift
-1699149548135: Key Released: Alt
-1699149548144: Key Released: Tab
-1699149548504: Key Released: Enter
-1699149548905: Key Released: Alt
-1699149548912: Key Released: Tab
-1699149549750: Key Released: Ctrl
-1699149550011: Key Released: Alt
-1699149550303: Key Released: Enter
-1699149563222: Key Released: Alt
+1699969221303: Mouse moved. x: 768 y: 442
+1699969221309: Mouse moved. x: 769 y: 454
+1699969221316: Mouse moved. x: 769 y: 467
+1699969221323: Mouse moved. x: 769 y: 481
+1699969221330: Mouse moved. x: 769 y: 493
+1699969221339: Mouse moved. x: 766 y: 505
+1699969221345: Mouse moved. x: 760 y: 520
+1699969221353: Mouse moved. x: 749 y: 536
+1699969221359: Mouse moved. x: 735 y: 553
+1699969221367: Mouse moved. x: 721 y: 571
+1699969221374: Mouse moved. x: 693 y: 590
+1699969221381: Mouse moved. x: 665 y: 603
+1699969221388: Mouse moved. x: 635 y: 611
+1699969221396: Mouse moved. x: 598 y: 618
+1699969221403: Mouse moved. x: 562 y: 620
+1699969221410: Mouse moved. x: 519 y: 620
+1699969221418: Mouse moved. x: 477 y: 619
+1699969221425: Mouse moved. x: 435 y: 614
+1699969221432: Mouse moved. x: 399 y: 609
+1699969221439: Mouse moved. x: 353 y: 597
+1699969221446: Mouse moved. x: 323 y: 589
+1699969221454: Mouse moved. x: 289 y: 573
+1699969221461: Mouse moved. x: 257 y: 555
+1699969221468: Mouse moved. x: 240 y: 541
+1699969221475: Mouse moved. x: 214 y: 514
+1699969221482: Mouse moved. x: 189 y: 484
+1699969221489: Mouse moved. x: 173 y: 455
+1699969221497: Mouse moved. x: 160 y: 426
+1699969221503: Mouse moved. x: 153 y: 392
+1699969221511: Mouse moved. x: 151 y: 366
+1699969221517: Mouse moved. x: 151 y: 334
+1699969221525: Mouse moved. x: 154 y: 295
+1699969221532: Mouse moved. x: 158 y: 276
+1699969221539: Mouse moved. x: 163 y: 250
+1699969221547: Mouse moved. x: 168 y: 240
+1699969221554: Mouse moved. x: 171 y: 233
+1699969221561: Mouse moved. x: 175 y: 229
+1699969221568: Mouse moved. x: 177 y: 227
+1699969221576: Mouse moved. x: 181 y: 225
+1699969221583: Mouse moved. x: 186 y: 223
+1699969221590: Mouse moved. x: 191 y: 222
+1699969221597: Mouse moved. x: 195 y: 222
+1699969221604: Mouse moved. x: 198 y: 222
+1699969221611: Mouse moved. x: 202 y: 222
+1699969221618: Mouse moved. x: 205 y: 222
+1699969221626: Mouse moved. x: 210 y: 222
+1699969221633: Mouse moved. x: 214 y: 222
+1699969221640: Mouse moved. x: 221 y: 221
+1699969221647: Mouse moved. x: 229 y: 220
+1699969221654: Mouse moved. x: 235 y: 218
+1699969221662: Mouse moved. x: 240 y: 217
+1699969221669: Mouse moved. x: 246 y: 215
+1699969221676: Mouse moved. x: 249 y: 212
+1699969221683: Mouse moved. x: 252 y: 211
+1699969221690: Mouse moved. x: 254 y: 209
+1699969221697: Mouse moved. x: 255 y: 208
+1699969221705: Mouse moved. x: 257 y: 207
+1699969221712: Mouse moved. x: 257 y: 207
+1699969221719: Mouse moved. x: 258 y: 207
+1699969221741: Mouse moved. x: 258 y: 207
+1699969222723: Key Released: R
+1699969222790: Key Released: Shift
+1699969222850: Key Released: Ctrl
+1699969223473: Mouse Dragged:264,206
+1699969223480: Mouse Dragged:274,202
+1699969223487: Mouse Dragged:285,199
+1699969223494: Mouse Dragged:295,196
+1699969223501: Mouse Dragged:306,193
+1699969223508: Mouse Dragged:319,190
+1699969223516: Mouse Dragged:331,186
+1699969223523: Mouse Dragged:348,182
+1699969223530: Mouse Dragged:360,180
+1699969223537: Mouse Dragged:372,177
+1699969223545: Mouse Dragged:385,173
+1699969223552: Mouse Dragged:397,173
+1699969223559: Mouse Dragged:407,173
+1699969223566: Mouse Dragged:418,173
+1699969223573: Mouse Dragged:427,173
+1699969223581: Mouse Dragged:434,173
+1699969223587: Mouse Dragged:440,176
+1699969223595: Mouse Dragged:447,178
+1699969223602: Mouse Dragged:454,181
+1699969223610: Mouse Dragged:460,188
+1699969223616: Mouse Dragged:469,194
+1699969223624: Mouse Dragged:478,204
+1699969223631: Mouse Dragged:489,218
+1699969223638: Mouse Dragged:500,234
+1699969223645: Mouse Dragged:508,249
+1699969223653: Mouse Dragged:515,269
+1699969223660: Mouse Dragged:521,291
+1699969223667: Mouse Dragged:524,309
+1699969223674: Mouse Dragged:529,330
+1699969223681: Mouse Dragged:531,344
+1699969223688: Mouse Dragged:532,360
+1699969223696: Mouse Dragged:532,372
+1699969223703: Mouse Dragged:532,384
+1699969223709: Mouse Dragged:531,394
+1699969223717: Mouse Dragged:530,401
+1699969223724: Mouse Dragged:526,408
+1699969223731: Mouse Dragged:523,413
+1699969223739: Mouse Dragged:517,420
+1699969223746: Mouse Dragged:511,425
+1699969223753: Mouse Dragged:501,432
+1699969223760: Mouse Dragged:488,439
+1699969223768: Mouse Dragged:476,442
+1699969223774: Mouse Dragged:457,443
+1699969223782: Mouse Dragged:444,443
+1699969223789: Mouse Dragged:425,439
+1699969223796: Mouse Dragged:400,433
+1699969223803: Mouse Dragged:376,426
+1699969223811: Mouse Dragged:353,415
+1699969223818: Mouse Dragged:330,406
+1699969223825: Mouse Dragged:309,395
+1699969223832: Mouse Dragged:287,381
+1699969223839: Mouse Dragged:271,369
+1699969223846: Mouse Dragged:250,348
+1699969223853: Mouse Dragged:232,325
+1699969223861: Mouse Dragged:219,306
+1699969223868: Mouse Dragged:208,283
+1699969223875: Mouse Dragged:201,263
+1699969223882: Mouse Dragged:198,245
+1699969223889: Mouse Dragged:197,225
+1699969223897: Mouse Dragged:197,209
+1699969223904: Mouse Dragged:198,194
+1699969223911: Mouse Dragged:201,180
+1699969223918: Mouse Dragged:205,169
+1699969223925: Mouse Dragged:211,158
+1699969223933: Mouse Dragged:218,147
+1699969223940: Mouse Dragged:226,137
+1699969223947: Mouse Dragged:238,126
+1699969223953: Mouse Dragged:249,120
+1699969223961: Mouse Dragged:268,110
+1699969223968: Mouse Dragged:280,106
+1699969223976: Mouse Dragged:301,100
+1699969223982: Mouse Dragged:318,100
+1699969223989: Mouse Dragged:340,100
+1699969223997: Mouse Dragged:356,100
+1699969224004: Mouse Dragged:373,100
+1699969224012: Mouse Dragged:387,100
+1699969224019: Mouse Dragged:401,100
+1699969224026: Mouse Dragged:413,104
+1699969224033: Mouse Dragged:425,110
+1699969224040: Mouse Dragged:436,117
+1699969224047: Mouse Dragged:448,127
+1699969224055: Mouse Dragged:454,132
+1699969224062: Mouse Dragged:463,139
+1699969224069: Mouse Dragged:470,147
+1699969224076: Mouse Dragged:476,153
+1699969224083: Mouse Dragged:483,161
+1699969224091: Mouse Dragged:490,166
+1699969224099: Mouse Dragged:497,172
+1699969224106: Mouse Dragged:503,182
+1699969224112: Mouse Dragged:508,189
+1699969224119: Mouse Dragged:519,204
+1699969224127: Mouse Dragged:526,217
+1699969224134: Mouse Dragged:530,232
+1699969224140: Mouse Dragged:536,253
+1699969224148: Mouse Dragged:540,272
+1699969224155: Mouse Dragged:543,295
+1699969224162: Mouse Dragged:544,315
+1699969224170: Mouse Dragged:544,337
+1699969224177: Mouse Dragged:544,367
+1699969224184: Mouse Dragged:544,386
+1699969224191: Mouse Dragged:542,409
+1699969224199: Mouse Dragged:538,430
+1699969224206: Mouse Dragged:533,444
+1699969224213: Mouse Dragged:528,461
+1699969224220: Mouse Dragged:523,473
+1699969224227: Mouse Dragged:518,483
+1699969224234: Mouse Dragged:512,489
+1699969224242: Mouse Dragged:508,495
+1699969224249: Mouse Dragged:501,500
+1699969224256: Mouse Dragged:495,507
+1699969224263: Mouse Dragged:478,517
+1699969224271: Mouse Dragged:457,526
+1699969224278: Mouse Dragged:437,536
+1699969224285: Mouse Dragged:403,550
+1699969224292: Mouse Dragged:374,557
+1699969224299: Mouse Dragged:344,557
+1699969224307: Mouse Dragged:323,555
+1699969224314: Mouse Dragged:298,544
+1699969224321: Mouse Dragged:274,529
+1699969224329: Mouse Dragged:246,509
+1699969224336: Mouse Dragged:217,480
+1699969224342: Mouse Dragged:187,434
+1699969224350: Mouse Dragged:165,396
+1699969224357: Mouse Dragged:143,349
+1699969224364: Mouse Dragged:128,308
+1699969224371: Mouse Dragged:117,267
+1699969224379: Mouse Dragged:114,239
+1699969224386: Mouse Dragged:114,206
+1699969224393: Mouse Dragged:114,189
+1699969224400: Mouse Dragged:118,173
+1699969224407: Mouse Dragged:123,162
+1699969224414: Mouse Dragged:131,151
+1699969224422: Mouse Dragged:138,142
+1699969224429: Mouse Dragged:151,132
+1699969224436: Mouse Dragged:175,116
+1699969224444: Mouse Dragged:196,106
+1699969224451: Mouse Dragged:226,96
+1699969224457: Mouse Dragged:255,91
+1699969224465: Mouse Dragged:278,88
+1699969224472: Mouse Dragged:311,88
+1699969224479: Mouse Dragged:336,88
+1699969224487: Mouse Dragged:369,90
+1699969224494: Mouse Dragged:387,93
+1699969224501: Mouse Dragged:422,100
+1699969224507: Mouse Dragged:443,104
+1699969224514: Mouse Dragged:472,109
+1699969224522: Mouse Dragged:491,114
+1699969224529: Mouse Dragged:517,119
+1699969224536: Mouse Dragged:529,121
+1699969224543: Mouse Dragged:545,126
+1699969224551: Mouse Dragged:556,128
+1699969224558: Mouse Dragged:567,130
+1699969224565: Mouse Dragged:576,132
+1699969224572: Mouse Dragged:584,134
+1699969224580: Mouse Dragged:593,140
+1699969224587: Mouse Dragged:600,144
+1699969224594: Mouse Dragged:608,150
+1699969224601: Mouse Dragged:615,157
+1699969224608: Mouse Dragged:622,171
+1699969224615: Mouse Dragged:629,181
+1699969224623: Mouse Dragged:632,192
+1699969224630: Mouse Dragged:637,208
+1699969224637: Mouse Dragged:639,220
+1699969224644: Mouse Dragged:642,237
+1699969224652: Mouse Dragged:642,250
+1699969224659: Mouse Dragged:642,270
+1699969224666: Mouse Dragged:642,287
+1699969224673: Mouse Dragged:642,306
+1699969224680: Mouse Dragged:642,319
+1699969224688: Mouse Dragged:639,340
+1699969224695: Mouse Dragged:638,353
+1699969224702: Mouse Dragged:636,367
+1699969224709: Mouse Dragged:633,380
+1699969224716: Mouse Dragged:631,394
+1699969224723: Mouse Dragged:629,407
+1699969224730: Mouse Dragged:624,421
+1699969224737: Mouse Dragged:620,435
+1699969224744: Mouse Dragged:615,446
+1699969224751: Mouse Dragged:609,457
+1699969224758: Mouse Dragged:604,464
+1699969224766: Mouse Dragged:597,473
+1699969224773: Mouse Dragged:589,481
+1699969224780: Mouse Dragged:579,488
+1699969224788: Mouse Dragged:569,495
+1699969224794: Mouse Dragged:563,500
+1699969224802: Mouse Dragged:559,502
+1699969225075: Mouse moved. x: 581 y: 496
+1699969225082: Mouse moved. x: 635 y: 480
+1699969225089: Mouse moved. x: 662 y: 475
+1699969225096: Mouse moved. x: 702 y: 464
+1699969225103: Mouse moved. x: 732 y: 456
+1699969225110: Mouse moved. x: 760 y: 446
+1699969225117: Mouse moved. x: 781 y: 442
+1699969225125: Mouse moved. x: 798 y: 435
+1699969225131: Mouse moved. x: 808 y: 433
+1699969225139: Mouse moved. x: 815 y: 430
+1699969225146: Mouse moved. x: 819 y: 428
+1699969225153: Mouse moved. x: 823 y: 427
+1699969225160: Mouse moved. x: 824 y: 426
+1699969225168: Mouse moved. x: 825 y: 426
+1699969225175: Mouse moved. x: 825 y: 426
+1699969225181: Mouse moved. x: 826 y: 426
+1699969225218: Mouse moved. x: 826 y: 425
+1699969225226: Mouse moved. x: 826 y: 424
+1699969225240: Mouse moved. x: 826 y: 424
+1699969225247: Mouse moved. x: 826 y: 423
+1699969225254: Mouse moved. x: 826 y: 422
+1699969225261: Mouse moved. x: 827 y: 418
+1699969225268: Mouse moved. x: 831 y: 408
+1699969225276: Mouse moved. x: 834 y: 398
+1699969225283: Mouse moved. x: 839 y: 387
+1699969225290: Mouse moved. x: 844 y: 379
+1699969225297: Mouse moved. x: 847 y: 372
+1699969225305: Mouse moved. x: 852 y: 363
+1699969225311: Mouse moved. x: 855 y: 358
+1699969225319: Mouse moved. x: 858 y: 351
+1699969225326: Mouse moved. x: 860 y: 346
+1699969225333: Mouse moved. x: 862 y: 343
+1699969225340: Mouse moved. x: 864 y: 341
+1699969225347: Mouse moved. x: 865 y: 340
+1699969225355: Mouse moved. x: 865 y: 337
+1699969225362: Mouse moved. x: 866 y: 337
+1699969225369: Mouse moved. x: 866 y: 336
+1699969225383: Mouse moved. x: 866 y: 336
+1699969225419: Mouse moved. x: 866 y: 335
+1699969225456: Mouse moved. x: 866 y: 335
+1699969225592: Mouse Dragged:872,340
+1699969225600: Mouse Dragged:880,348
+1699969225607: Mouse Dragged:889,356
+1699969225614: Mouse Dragged:898,362
+1699969225622: Mouse Dragged:908,372
+1699969225628: Mouse Dragged:917,380
+1699969225635: Mouse Dragged:927,389
+1699969225642: Mouse Dragged:937,398
+1699969225649: Mouse Dragged:946,404
+1699969225657: Mouse Dragged:956,413
+1699969225664: Mouse Dragged:964,419
+1699969225671: Mouse Dragged:973,426
+1699969225678: Mouse Dragged:982,434
+1699969225685: Mouse Dragged:990,440
+1699969225693: Mouse Dragged:999,448
+1699969225700: Mouse Dragged:1005,454
+1699969225708: Mouse Dragged:1013,461
+1699969225715: Mouse Dragged:1019,468
+1699969225722: Mouse Dragged:1024,475
+1699969225729: Mouse Dragged:1029,479
+1699969225736: Mouse Dragged:1033,485
+1699969225743: Mouse Dragged:1037,489
+1699969225750: Mouse Dragged:1042,493
+1699969225758: Mouse Dragged:1044,497
+1699969225765: Mouse Dragged:1048,500
+1699969225772: Mouse Dragged:1050,503
+1699969225779: Mouse Dragged:1051,505
+1699969225786: Mouse Dragged:1052,506
+1699969225793: Mouse Dragged:1052,507
+1699969225801: Mouse Dragged:1053,507
+1699969225808: Mouse Dragged:1053,508
+1699969225815: Mouse Dragged:1053,508
+1699969225822: Mouse Dragged:1053,510
+1699969225830: Mouse Dragged:1053,510
+1699969225837: Mouse Dragged:1053,511
+1699969225844: Mouse Dragged:1053,511
+1699969225851: Mouse Dragged:1053,512
+1699969225858: Mouse Dragged:1051,512
+1699969225865: Mouse Dragged:1048,513
+1699969226087: Mouse moved. x: 1045 y: 515
+1699969226094: Mouse moved. x: 1043 y: 515
+1699969226102: Mouse moved. x: 1038 y: 515
+1699969226109: Mouse moved. x: 1033 y: 515
+1699969226116: Mouse moved. x: 1026 y: 515
+1699969226124: Mouse moved. x: 1015 y: 511
+1699969226131: Mouse moved. x: 1005 y: 507
+1699969226138: Mouse moved. x: 993 y: 496
+1699969226145: Mouse moved. x: 978 y: 481
+1699969226152: Mouse moved. x: 960 y: 458
+1699969226159: Mouse moved. x: 941 y: 431
+1699969226166: Mouse moved. x: 925 y: 406
+1699969226173: Mouse moved. x: 908 y: 377
+1699969226180: Mouse moved. x: 894 y: 346
+1699969226188: Mouse moved. x: 879 y: 310
+1699969226195: Mouse moved. x: 874 y: 288
+1699969226202: Mouse moved. x: 866 y: 261
+1699969226209: Mouse moved. x: 864 y: 241
+1699969226216: Mouse moved. x: 863 y: 226
+1699969226223: Mouse moved. x: 863 y: 214
+1699969226230: Mouse moved. x: 864 y: 204
+1699969226237: Mouse moved. x: 869 y: 195
+1699969226245: Mouse moved. x: 874 y: 187
+1699969226252: Mouse moved. x: 884 y: 180
+1699969226259: Mouse moved. x: 895 y: 172
+1699969226266: Mouse moved. x: 911 y: 167
+1699969226274: Mouse moved. x: 923 y: 163
+1699969226281: Mouse moved. x: 942 y: 162
+1699969226289: Mouse moved. x: 958 y: 162
+1699969226295: Mouse moved. x: 979 y: 163
+1699969226302: Mouse moved. x: 998 y: 169
+1699969226309: Mouse moved. x: 1016 y: 173
+1699969226316: Mouse moved. x: 1026 y: 176
+1699969226324: Mouse moved. x: 1037 y: 180
+1699969226331: Mouse moved. x: 1044 y: 183
+1699969226338: Mouse moved. x: 1049 y: 185
+1699969226346: Mouse moved. x: 1051 y: 186
+1699969226353: Mouse moved. x: 1052 y: 187
+1699969226361: Mouse moved. x: 1054 y: 188
+1699969226368: Mouse moved. x: 1054 y: 189
+1699969226375: Mouse moved. x: 1055 y: 189
+1699969226382: Mouse moved. x: 1055 y: 190
+1699969226396: Mouse moved. x: 1055 y: 190
+1699969226403: Mouse moved. x: 1055 y: 191
+1699969226410: Mouse moved. x: 1055 y: 191
+1699969226418: Mouse moved. x: 1055 y: 192
+1699969226425: Mouse moved. x: 1055 y: 193
+1699969226440: Mouse moved. x: 1055 y: 194
+1699969226454: Mouse moved. x: 1055 y: 194
+1699969226468: Mouse moved. x: 1055 y: 195
+1699969226504: Mouse moved. x: 1055 y: 195
+1699969226814: Mouse moved. x: 1073 y: 222
+1699969226821: Mouse moved. x: 1099 y: 272
+1699969226828: Mouse moved. x: 1129 y: 336
+1699969226835: Mouse moved. x: 1155 y: 412
+1699969226842: Mouse moved. x: 1181 y: 488
+1699969226850: Mouse moved. x: 1200 y: 558
+1699969226857: Mouse moved. x: 1208 y: 619
+1699969226864: Mouse moved. x: 1208 y: 667
+1699969226871: Mouse moved. x: 1204 y: 704
+1699969226879: Mouse moved. x: 1189 y: 743
+1699969226886: Mouse moved. x: 1172 y: 775
+1699969226892: Mouse moved. x: 1149 y: 800
+1699969226900: Mouse moved. x: 1121 y: 827
+1699969226907: Mouse moved. x: 1088 y: 853
+1699969226915: Mouse moved. x: 1059 y: 868
+1699969226922: Mouse moved. x: 1025 y: 880
+1699969226929: Mouse moved. x: 995 y: 880
+1699969226935: Mouse moved. x: 965 y: 880
+1699969226942: Mouse moved. x: 927 y: 867
+1699969226950: Mouse moved. x: 892 y: 849
+1699969226957: Mouse moved. x: 857 y: 827
+1699969226964: Mouse moved. x: 821 y: 792
+1699969226971: Mouse moved. x: 780 y: 747
+1699969226978: Mouse moved. x: 741 y: 695
+1699969226985: Mouse moved. x: 712 y: 642
+1699969226992: Mouse moved. x: 685 y: 584
+1699969227000: Mouse moved. x: 665 y: 527
+1699969227007: Mouse moved. x: 650 y: 470
+1699969227014: Mouse moved. x: 643 y: 425
+1699969227022: Mouse moved. x: 639 y: 387
+1699969227029: Mouse moved. x: 642 y: 353
+1699969227036: Mouse moved. x: 646 y: 327
+1699969227043: Mouse moved. x: 658 y: 301
+1699969227051: Mouse moved. x: 665 y: 288
+1699969227058: Mouse moved. x: 685 y: 263
+1699969227065: Mouse moved. x: 707 y: 247
+1699969227072: Mouse moved. x: 737 y: 226
+1699969227078: Mouse moved. x: 786 y: 208
+1699969227086: Mouse moved. x: 822 y: 196
+1699969227093: Mouse moved. x: 876 y: 182
+1699969227100: Mouse moved. x: 909 y: 180
+1699969227108: Mouse moved. x: 952 y: 180
+1699969227115: Mouse moved. x: 980 y: 180
+1699969227123: Mouse moved. x: 1014 y: 184
+1699969227129: Mouse moved. x: 1032 y: 188
+1699969227137: Mouse moved. x: 1064 y: 195
+1699969227143: Mouse moved. x: 1086 y: 200
+1699969227151: Mouse moved. x: 1114 y: 210
+1699969227157: Mouse moved. x: 1144 y: 222
+1699969227165: Mouse moved. x: 1173 y: 236
+1699969227173: Mouse moved. x: 1192 y: 249
+1699969227179: Mouse moved. x: 1212 y: 264
+1699969227187: Mouse moved. x: 1222 y: 274
+1699969227195: Mouse moved. x: 1235 y: 288
+1699969227202: Mouse moved. x: 1247 y: 305
+1699969227208: Mouse moved. x: 1259 y: 326
+1699969227216: Mouse moved. x: 1265 y: 350
+1699969227223: Mouse moved. x: 1270 y: 379
+1699969227230: Mouse moved. x: 1269 y: 415
+1699969227237: Mouse moved. x: 1261 y: 445
+1699969227245: Mouse moved. x: 1242 y: 489
+1699969227252: Mouse moved. x: 1224 y: 524
+1699969227259: Mouse moved. x: 1200 y: 559
+1699969227266: Mouse moved. x: 1165 y: 596
+1699969227273: Mouse moved. x: 1131 y: 626
+1699969227280: Mouse moved. x: 1085 y: 660
+1699969227287: Mouse moved. x: 1044 y: 685
+1699969227295: Mouse moved. x: 1005 y: 702
+1699969227301: Mouse moved. x: 970 y: 714
+1699969227310: Mouse moved. x: 938 y: 721
+1699969227317: Mouse moved. x: 910 y: 722
+1699969227323: Mouse moved. x: 893 y: 722
+1699969227331: Mouse moved. x: 873 y: 721
+1699969227337: Mouse moved. x: 859 y: 716
+1699969227344: Mouse moved. x: 843 y: 707
+1699969227351: Mouse moved. x: 828 y: 693
+1699969227360: Mouse moved. x: 804 y: 660
+1699969227366: Mouse moved. x: 793 y: 635
+1699969227375: Mouse moved. x: 785 y: 607
+1699969227382: Mouse moved. x: 782 y: 582
+1699969227388: Mouse moved. x: 782 y: 560
+1699969227396: Mouse moved. x: 783 y: 546
+1699969227402: Mouse moved. x: 784 y: 536
+1699969227409: Mouse moved. x: 785 y: 531
+1699969227625: Key Released: Alt
+1699969227638: Key Released: Tab
+1699969228421: Key Released: S
+1699969228482: Key Released: Shift
+1699969228512: Key Released: Ctrl
+1699969237703: Key Released: 1
+1699969237703: Key Released: Shift
+1699969237704: Key Released: Ctrl
+1699969237704: Key Released: R
+1699969237704: Key Released: Shift
+1699969237704: Key Released: Ctrl
+1699969237705: Mouse moved. x: 580 y: 495
+1699969237705: Mouse moved. x: 635 y: 480
+1699969237705: Mouse moved. x: 661 y: 475
+1699969237705: Mouse moved. x: 701 y: 464
+1699969237705: Mouse moved. x: 731 y: 455
+1699969237705: Mouse moved. x: 760 y: 445
+1699969237705: Mouse moved. x: 780 y: 441
+1699969237705: Mouse moved. x: 797 y: 435
+1699969237705: Mouse moved. x: 807 y: 432
+1699969237705: Mouse moved. x: 815 y: 430
+1699969237705: Mouse moved. x: 819 y: 427
+1699969237705: Mouse moved. x: 822 y: 426
+1699969237705: Mouse moved. x: 824 y: 425
+1699969237705: Mouse moved. x: 825 y: 425
+1699969237705: Mouse moved. x: 825 y: 425
+1699969237705: Mouse moved. x: 825 y: 425
+1699969237705: Mouse moved. x: 825 y: 425
+1699969237705: Mouse moved. x: 825 y: 424
+1699969237705: Mouse moved. x: 825 y: 424
+1699969237705: Mouse moved. x: 825 y: 422
+1699969237705: Mouse moved. x: 825 y: 421
+1699969237705: Mouse moved. x: 826 y: 417
+1699969237705: Mouse moved. x: 830 y: 407
+1699969237705: Mouse moved. x: 834 y: 397
+1699969237705: Mouse moved. x: 839 y: 386
+1699969237705: Mouse moved. x: 844 y: 379
+1699969237705: Mouse moved. x: 846 y: 371
+1699969237705: Mouse moved. x: 851 y: 362
+1699969237705: Mouse moved. x: 855 y: 357
+1699969237705: Mouse moved. x: 857 y: 350
+1699969237705: Mouse moved. x: 860 y: 345
+1699969237705: Mouse moved. x: 861 y: 342
+1699969237705: Mouse moved. x: 864 y: 340
+1699969237705: Mouse moved. x: 865 y: 340
+1699969237705: Mouse moved. x: 865 y: 336
+1699969237705: Mouse moved. x: 865 y: 336
+1699969237705: Mouse moved. x: 865 y: 335
+1699969237705: Mouse moved. x: 865 y: 335
+1699969237705: Mouse moved. x: 865 y: 335
+1699969237705: Mouse moved. x: 865 y: 335
+1699969237705: Mouse moved. x: 1045 y: 515
+1699969237705: Mouse moved. x: 1042 y: 515
+1699969237705: Mouse moved. x: 1037 y: 515
+1699969237705: Mouse moved. x: 1032 y: 515
+1699969237705: Mouse moved. x: 1025 y: 515
+1699969237705: Mouse moved. x: 1015 y: 510
+1699969237705: Mouse moved. x: 1005 y: 506
+1699969237705: Mouse moved. x: 992 y: 495
+1699969237705: Mouse moved. x: 977 y: 480
+1699969237705: Mouse moved. x: 960 y: 457
+1699969237705: Mouse moved. x: 940 y: 430
+1699969237705: Mouse moved. x: 925 y: 405
+1699969237705: Mouse moved. x: 907 y: 376
+1699969237705: Mouse moved. x: 894 y: 345
+1699969237705: Mouse moved. x: 879 y: 310
+1699969237705: Mouse moved. x: 874 y: 287
+1699969237705: Mouse moved. x: 865 y: 260
+1699969237705: Mouse moved. x: 864 y: 240
+1699969237705: Mouse moved. x: 862 y: 225
+1699969237705: Mouse moved. x: 862 y: 214
+1699969237705: Mouse moved. x: 864 y: 204
+1699969237705: Mouse moved. x: 869 y: 195
+1699969237705: Mouse moved. x: 874 y: 186
+1699969237705: Mouse moved. x: 884 y: 180
+1699969237705: Mouse moved. x: 895 y: 171
+1699969237705: Mouse moved. x: 910 y: 166
+1699969237705: Mouse moved. x: 922 y: 162
+1699969237705: Mouse moved. x: 941 y: 161
+1699969237705: Mouse moved. x: 957 y: 161
+1699969237705: Mouse moved. x: 979 y: 162
+1699969237705: Mouse moved. x: 997 y: 169
+1699969237705: Mouse moved. x: 1015 y: 172
+1699969237705: Mouse moved. x: 1025 y: 175
+1699969237705: Mouse moved. x: 1036 y: 180
+1699969237705: Mouse moved. x: 1044 y: 182
+1699969237705: Mouse moved. x: 1049 y: 185
+1699969237705: Mouse moved. x: 1050 y: 185
+1699969237705: Mouse moved. x: 1051 y: 186
+1699969237705: Mouse moved. x: 1054 y: 187
+1699969237705: Mouse moved. x: 1054 y: 189
+1699969237705: Mouse moved. x: 1055 y: 189
+1699969237705: Mouse moved. x: 1055 y: 190
+1699969237705: Mouse moved. x: 1055 y: 190
+1699969237705: Mouse moved. x: 1055 y: 190
+1699969237705: Mouse moved. x: 1055 y: 190
+1699969237705: Mouse moved. x: 1055 y: 191
+1699969237705: Mouse moved. x: 1055 y: 192
+1699969237705: Mouse moved. x: 1055 y: 194
+1699969237705: Mouse moved. x: 1055 y: 194
+1699969237705: Mouse moved. x: 1055 y: 195
+1699969237705: Mouse moved. x: 1055 y: 195
+1699969237705: Mouse moved. x: 1072 y: 221
+1699969237705: Mouse moved. x: 1099 y: 271
+1699969237705: Mouse moved. x: 1129 y: 335
+1699969237705: Mouse moved. x: 1155 y: 411
+1699969237705: Mouse moved. x: 1180 y: 487
+1699969237705: Mouse moved. x: 1200 y: 557
+1699969237705: Mouse moved. x: 1207 y: 619
+1699969237705: Mouse moved. x: 1207 y: 666
+1699969237705: Mouse moved. x: 1204 y: 704
+1699969237705: Mouse moved. x: 1189 y: 742
+1699969237705: Mouse moved. x: 1171 y: 775
+1699969237705: Mouse moved. x: 1149 y: 800
+1699969237705: Mouse moved. x: 1120 y: 826
+1699969237705: Mouse moved. x: 1087 y: 852
+1699969237705: Mouse moved. x: 1059 y: 867
+1699969237705: Mouse moved. x: 1025 y: 880
+1699969237705: Mouse moved. x: 995 y: 880
+1699969237705: Mouse moved. x: 965 y: 880
+1699969237705: Mouse moved. x: 926 y: 866
+1699969237705: Mouse moved. x: 891 y: 849
+1699969237705: Mouse moved. x: 856 y: 826
+1699969237705: Mouse moved. x: 820 y: 791
+1699969237705: Mouse moved. x: 780 y: 746
+1699969237705: Mouse moved. x: 740 y: 695
+1699969237705: Mouse moved. x: 711 y: 641
+1699969237705: Mouse moved. x: 685 y: 584
+1699969237705: Mouse moved. x: 665 y: 526
+1699969237705: Mouse moved. x: 650 y: 470
+1699969237705: Mouse moved. x: 642 y: 425
+1699969237705: Mouse moved. x: 639 y: 386
+1699969237705: Mouse moved. x: 641 y: 352
+1699969237705: Mouse moved. x: 645 y: 326
+1699969237705: Mouse moved. x: 657 y: 300
+1699969237706: Mouse moved. x: 665 y: 287
+1699969237706: Mouse moved. x: 685 y: 262
+1699969237706: Mouse moved. x: 706 y: 246
+1699969237706: Mouse moved. x: 736 y: 225
+1699969237706: Mouse moved. x: 785 y: 207
+1699969237706: Mouse moved. x: 821 y: 195
+1699969237706: Mouse moved. x: 875 y: 181
+1699969237706: Mouse moved. x: 909 y: 180
+1699969237706: Mouse moved. x: 951 y: 180
+1699969237706: Mouse moved. x: 980 y: 180
+1699969237706: Mouse moved. x: 1014 y: 184
+1699969237706: Mouse moved. x: 1031 y: 187
+1699969237706: Mouse moved. x: 1064 y: 195
+1699969237706: Mouse moved. x: 1085 y: 200
+1699969237706: Mouse moved. x: 1114 y: 210
+1699969237706: Mouse moved. x: 1144 y: 221
+1699969237706: Mouse moved. x: 1172 y: 235
+1699969237706: Mouse moved. x: 1191 y: 249
+1699969237706: Mouse moved. x: 1211 y: 264
+1699969237706: Mouse moved. x: 1221 y: 274
+1699969237706: Mouse moved. x: 1235 y: 287
+1699969237706: Mouse moved. x: 1246 y: 305
+1699969237706: Mouse moved. x: 1259 y: 325
+1699969237706: Mouse moved. x: 1265 y: 350
+1699969237706: Mouse moved. x: 1270 y: 379
+1699969237706: Mouse moved. x: 1269 y: 415
+1699969237706: Mouse moved. x: 1260 y: 445
+1699969237706: Mouse moved. x: 1241 y: 489
+1699969237706: Mouse moved. x: 1224 y: 524
+1699969237706: Mouse moved. x: 1200 y: 559
+1699969237706: Mouse moved. x: 1165 y: 595
+1699969237706: Mouse moved. x: 1130 y: 625
+1699969237706: Mouse moved. x: 1085 y: 660
+1699969237706: Mouse moved. x: 1044 y: 685
+1699969237706: Mouse moved. x: 1005 y: 701
+1699969237706: Mouse moved. x: 970 y: 714
+1699969237706: Mouse moved. x: 937 y: 720
+1699969237706: Mouse moved. x: 910 y: 721
+1699969237706: Mouse moved. x: 892 y: 721
+1699969237706: Mouse moved. x: 872 y: 720
+1699969237706: Mouse moved. x: 859 y: 715
+1699969237706: Mouse moved. x: 842 y: 706
+1699969237706: Mouse moved. x: 827 y: 692
+1699969237706: Mouse moved. x: 804 y: 660
+1699969237706: Mouse moved. x: 792 y: 635
+1699969237706: Mouse moved. x: 785 y: 606
+1699969237706: Mouse moved. x: 781 y: 581
+1699969237706: Mouse moved. x: 781 y: 560
+1699969237706: Mouse moved. x: 782 y: 545
+1699969237706: Mouse moved. x: 784 y: 535
+1699969237706: Mouse moved. x: 785 y: 530
+1699969237706: Key Released: Alt
+1699969237707: Key Released: Tab
+1699969269122: Mouse moved. x: 796 y: 521
+1699969269129: Mouse moved. x: 806 y: 509
+1699969269136: Mouse moved. x: 827 y: 486
+1699969269143: Mouse moved. x: 843 y: 470
+1699969269151: Mouse moved. x: 862 y: 450
+1699969269157: Mouse moved. x: 881 y: 430
+1699969269164: Mouse moved. x: 907 y: 405
+1699969269172: Mouse moved. x: 922 y: 390
+1699969269179: Mouse moved. x: 945 y: 368
+1699969269187: Mouse moved. x: 958 y: 356
+1699969269194: Mouse moved. x: 974 y: 340
+1699969269201: Mouse moved. x: 985 y: 331
+1699969269208: Mouse moved. x: 993 y: 324
+1699969269214: Mouse moved. x: 998 y: 320
+1699969269223: Mouse moved. x: 1004 y: 316
+1699969269229: Mouse moved. x: 1007 y: 312
+1699969269237: Mouse moved. x: 1012 y: 309
+1699969269243: Mouse moved. x: 1016 y: 304
+1699969269251: Mouse moved. x: 1022 y: 300
+1699969269257: Mouse moved. x: 1025 y: 297
+1699969269264: Mouse moved. x: 1032 y: 293
+1699969269272: Mouse moved. x: 1036 y: 291
+1699969269280: Mouse moved. x: 1042 y: 285
+1699969269286: Mouse moved. x: 1046 y: 283
+1699969269294: Mouse moved. x: 1050 y: 280
+1699969269301: Mouse moved. x: 1053 y: 279
+1699969269308: Mouse moved. x: 1054 y: 276
+1699969269315: Mouse moved. x: 1056 y: 276
+1699969269323: Mouse moved. x: 1057 y: 275
+1699969269330: Mouse moved. x: 1058 y: 275
+1699969269344: Mouse moved. x: 1058 y: 274
+1699969269366: Mouse moved. x: 1058 y: 274
+1699969269373: Mouse moved. x: 1058 y: 274
+1699969269395: Mouse moved. x: 1058 y: 273
+1699969269402: Mouse moved. x: 1058 y: 272
+1699969269409: Mouse moved. x: 1052 y: 266
+1699969269417: Mouse moved. x: 1041 y: 257
+1699969269424: Mouse moved. x: 1019 y: 243
+1699969269431: Mouse moved. x: 996 y: 232
+1699969269438: Mouse moved. x: 971 y: 216
+1699969269445: Mouse moved. x: 948 y: 204
+1699969269453: Mouse moved. x: 924 y: 189
+1699969269460: Mouse moved. x: 900 y: 177
+1699969269467: Mouse moved. x: 879 y: 166
+1699969269475: Mouse moved. x: 866 y: 158
+1699969269483: Mouse moved. x: 849 y: 147
+1699969269488: Mouse moved. x: 838 y: 141
+1699969269495: Mouse moved. x: 828 y: 134
+1699969269503: Mouse moved. x: 821 y: 130
+1699969269510: Mouse moved. x: 816 y: 126
+1699969269517: Mouse moved. x: 810 y: 122
+1699969269525: Mouse moved. x: 807 y: 118
+1699969269531: Mouse moved. x: 803 y: 115
+1699969269538: Mouse moved. x: 801 y: 113
+1699969269546: Mouse moved. x: 798 y: 110
+1699969269553: Mouse moved. x: 796 y: 108
+1699969269560: Mouse moved. x: 795 y: 107
+1699969269568: Mouse moved. x: 793 y: 105
+1699969269574: Mouse moved. x: 793 y: 103
+1699969269580: Mouse moved. x: 792 y: 101
+1699969269589: Mouse moved. x: 791 y: 99
+1699969269595: Mouse moved. x: 790 y: 98
+1699969269602: Mouse moved. x: 790 y: 95
+1699969269609: Mouse moved. x: 790 y: 93
+1699969269617: Mouse moved. x: 790 y: 91
+1699969269624: Mouse moved. x: 790 y: 88
+1699969269631: Mouse moved. x: 790 y: 86
+1699969269639: Mouse moved. x: 790 y: 84
+1699969269646: Mouse moved. x: 790 y: 81
+1699969269653: Mouse moved. x: 790 y: 80
+1699969269661: Mouse moved. x: 790 y: 79
+1699969269668: Mouse moved. x: 789 y: 77
+1699969269675: Mouse moved. x: 788 y: 76
+1699969269682: Mouse moved. x: 788 y: 74
+1699969269689: Mouse moved. x: 787 y: 73
+1699969269697: Mouse moved. x: 785 y: 71
+1699969269703: Mouse moved. x: 784 y: 70
+1699969269711: Mouse moved. x: 782 y: 67
+1699969269718: Mouse moved. x: 781 y: 64
+1699969269725: Mouse moved. x: 779 y: 62
+1699969269732: Mouse moved. x: 775 y: 58
+1699969269739: Mouse moved. x: 771 y: 55
+1699969269747: Mouse moved. x: 767 y: 52
+1699969269753: Mouse moved. x: 762 y: 48
+1699969269761: Mouse moved. x: 756 y: 45
+1699969269768: Mouse moved. x: 752 y: 43
+1699969269775: Mouse moved. x: 747 y: 41
+1699969269783: Mouse moved. x: 744 y: 39
+1699969269790: Mouse moved. x: 741 y: 38
+1699969269797: Mouse moved. x: 738 y: 37
+1699969269805: Mouse moved. x: 737 y: 37
+1699969269812: Mouse moved. x: 736 y: 36
+1699969269819: Mouse moved. x: 735 y: 36
+1699969269826: Mouse moved. x: 734 y: 35
+1699969269833: Mouse moved. x: 733 y: 35
+1699969269840: Mouse moved. x: 733 y: 35
+1699969269848: Mouse moved. x: 732 y: 35
+1699969269855: Mouse moved. x: 732 y: 35
+1699969269862: Mouse moved. x: 731 y: 35
+1699969270071: Mouse moved. x: 730 y: 34
+1699969270079: Mouse moved. x: 730 y: 34
+1699969270085: Mouse moved. x: 729 y: 34
+1699969270093: Mouse moved. x: 729 y: 33
+1699969270101: Mouse moved. x: 726 y: 32
+1699969270107: Mouse moved. x: 720 y: 31
+1699969270115: Mouse moved. x: 710 y: 31
+1699969270121: Mouse moved. x: 700 y: 33
+1699969270129: Mouse moved. x: 693 y: 34
+1699969270136: Mouse moved. x: 686 y: 36
+1699969270143: Mouse moved. x: 683 y: 36
+1699969270150: Mouse moved. x: 681 y: 37
+1699969270157: Mouse moved. x: 679 y: 37
+1699969270164: Mouse moved. x: 678 y: 37
+1699969270171: Mouse moved. x: 678 y: 37
+1699969270178: Mouse moved. x: 677 y: 37
+1699969270186: Mouse moved. x: 677 y: 37
+1699969270193: Mouse moved. x: 676 y: 37
+1699969270200: Mouse moved. x: 675 y: 37
+1699969270229: Mouse moved. x: 675 y: 37
+1699969270301: Mouse moved. x: 674 y: 37
+1699969270351: Mouse moved. x: 674 y: 37
+1699969270459: Mouse moved. x: 674 y: 37
+1699969270466: Mouse moved. x: 674 y: 37
+1699969270473: Mouse moved. x: 675 y: 37
+1699969270480: Mouse moved. x: 676 y: 36
+1699969270488: Mouse moved. x: 678 y: 36
+1699969270495: Mouse moved. x: 680 y: 36
+1699969270502: Mouse moved. x: 681 y: 36
+1699969270509: Mouse moved. x: 682 y: 36
+1699969270515: Mouse moved. x: 683 y: 36
+1699969270523: Mouse moved. x: 685 y: 36
+1699969270530: Mouse moved. x: 687 y: 36
+1699969270538: Mouse moved. x: 688 y: 37
+1699969270545: Mouse moved. x: 690 y: 37
+1699969270552: Mouse moved. x: 691 y: 38
+1699969270559: Mouse moved. x: 692 y: 39
+1699969270566: Mouse moved. x: 694 y: 39
+1699969270574: Mouse moved. x: 695 y: 39
+1699969270580: Mouse moved. x: 696 y: 39
+1699969270588: Mouse moved. x: 696 y: 40
+1699969270595: Mouse moved. x: 697 y: 40
+1699969270602: Mouse moved. x: 697 y: 40
+1699969270609: Mouse moved. x: 698 y: 41
+1699969270617: Mouse moved. x: 699 y: 41
+1699969270631: Mouse moved. x: 700 y: 41
+1699969270645: Mouse moved. x: 700 y: 41
+1699969270674: Mouse moved. x: 701 y: 41
+1699969270710: Mouse moved. x: 701 y: 41
+1699969270718: Mouse moved. x: 701 y: 40
+1699969270725: Mouse moved. x: 701 y: 40
+1699969270732: Mouse moved. x: 701 y: 39
+1699969270746: Mouse moved. x: 701 y: 39
+1699969270768: Mouse moved. x: 701 y: 38
+1699969270804: Mouse moved. x: 701 y: 38
+1699969271243: Mouse moved. x: 702 y: 38
+1699969271249: Mouse moved. x: 702 y: 37
+1699969271255: Mouse moved. x: 702 y: 37
+1699969271271: Mouse moved. x: 703 y: 36
+1699969271299: Mouse moved. x: 704 y: 36

@@ -44,7 +44,8 @@ public class KeyPress implements Action{
 	public void press() {
 //		try {
 //			Thread.sleep(delay);
-		robot.delay((int) delay);
+//		robot.delay((int) delay);
+		robot.setAutoDelay((int) delay);
 		robot.keyPress(ska.getJavaKeyEvent(e).getKeyCode());
 //		} catch (InterruptedException e1) {
 //			// TODO Auto-generated catch block

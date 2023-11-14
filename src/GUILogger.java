@@ -64,7 +64,6 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 //	ArrayList<Stack> recordedSequences = new ArrayList<>();
 	ArrayList<Stack> recordedSequences = new ArrayList<Stack>();
 	
-//	Stack<Action> recordedActions = new Stack<Action>();
 	Stack<Action> recordedActions = new Stack<Action>();
 	
 	int currentSeq = 0;
@@ -74,6 +73,8 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 	private static final long serialVersionUID = 1541183202160543102L;
 	
 	boolean recording;
+	
+	boolean infinite = false;
 
 	private final JMenu menuSubListeners;
 
@@ -86,6 +87,8 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 	private JMenuItem menuItemStopRec;
 	
 	private JMenuItem menuItemReplay1;	
+
+	private JMenuItem menuItemInfinite;	
 	
 	private final JCheckBoxMenuItem menuItemEnable;
 
@@ -125,9 +128,10 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 
 		this.menuItemQuit = new JMenuItem("Quit", 81);
 		this.menuItemQuit.addActionListener(this);
-		this.menuItemQuit.setAccelerator(KeyStroke.getKeyStroke(115, 512));
+		this.menuItemQuit.setAccelerator(KeyStroke.getKeyStroke(81, 192));
 		this.menuItemQuit.getAccessibleContext().setAccessibleDescription("Exit the program");
 
+		
 		menuFile.add(this.menuItemQuit);
 		JMenu menuView = new JMenu("View");
 		menuView.setMnemonic(86);
@@ -204,7 +208,12 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		this.menuItemReplay1.setAccelerator(KeyStroke.getKeyStroke(49, 192));
 		menuReplay1.add(menuItemReplay1);
 		menuReplay1.addSeparator();
-		
+
+//		this.menuItemInfinite = new JMenuItem("Toggle Infinite Replay", 84);
+//		this.menuItemInfinite.addActionListener(this);
+//		this.menuItemInfinite.setAccelerator(KeyStroke.getKeyStroke(84, 192));
+//		menuReplay1.add(menuItemInfinite);
+//		menuReplay1.addSeparator();
 		
 		JScrollPane scrollPane = new JScrollPane(this.txtEventInfo);
 		scrollPane.setPreferredSize(new Dimension(375, 125));
@@ -219,6 +228,12 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 	}
 
 	public static void main(String[] args) throws AWTException {
+		
+//	       Thread terminateKeyThread = new Thread();
+//	        terminateKeyThread.setDaemon(true); // Make it a daemon thread to automatically exit when main thread exits
+//	        terminateKeyThread.start();eW
+
+	        
 		robot = new Robot();
 
 		try {
@@ -267,22 +282,36 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 			}
 		} else if(e.getSource() == this.menuItemReplay1) {
 		    write("Replaying");
-		    robot.keyRelease(KeyEvent.VK_CONTROL);
-		    robot.keyRelease(KeyEvent.VK_SHIFT);
-		    robot.keyRelease(KeyEvent.VK_1);
-			for(Action i : (Stack<Action>) recordedSequences.get(0)) {
-//				System.out.println(i.delay);
-				i.press();
-//				System.out.println(i.delay);
-//				try {
-//					Thread.sleep(i.delay);
-//				} catch (InterruptedException e1) {
-//					// TODO Auto-generated catch block
-//					e1.printStackTrace();
-//				}
-			}
+		    robot.setAutoDelay(0);
+//		    if(infinite) {
+//		    	while(true) {
+//					for(Action i : (Stack<Action>) recordedSequences.get(0)) {
+//						i.press();
+//						try {
+//							Thread.sleep(1);
+//						} catch (InterruptedException e1) {
+//							// TODO Auto-generated catch block
+//							e1.printStackTrace();
+//						}
+//					}
+//		    	}
+//		    }
+//		    else if(!infinite) {
+		    	for(Action i : (Stack<Action>) recordedSequences.get(0)) {
+					i.press();
+//					try {
+//						Thread.sleep(1);
+//					} catch (InterruptedException e1) {
+//						// TODO Auto-generated catch block
+//						e1.printStackTrace();
+//					}				}
+		    }
+
 			
 			write("Replaying Complete.");
+		} else if(e.getSource() == this.menuItemInfinite) {
+			infinite = !infinite;
+			write("Toggled infinite replaying to " + infinite);
 		}
 	}
 
@@ -348,16 +377,17 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 //      recordedActions.add(new Key(e));
 //      System.out.println(recordedActions[0]);
 
-//		if (e.getKeyCode() == NativeKeyEvent.VC_ESCAPE) {
-//			try {
-//				GlobalScreen.unregisterNativeHook();
-////              System.exit(ABORT);
-//			} catch (NativeHookException e1) {
-//				// TODO Auto-generated catch block
-//				e1.printStackTrace();
-//
-//			}
-//		} 
+		if (e.getKeyCode() == NativeKeyEvent.VC_ESCAPE) {
+			try {
+				System.out.println("ESCAPE ESCAPE ESCAPE");
+				GlobalScreen.unregisterNativeHook();
+              System.exit(ABORT);
+			} catch (NativeHookException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+
+			}
+		} 
 	}
 	@Override
 	public void nativeKeyReleased(NativeKeyEvent e) {

@@ -43,7 +43,8 @@ public class ClickPress implements Action{
 	
 	@Override
 	public void press() {
-		robot.delay((int) delay);
+//		robot.delay((int) delay);
+		robot.setAutoDelay((int) delay);
 		if(e.getButton() == 1) {
 			robot.mousePress(KeyEvent.BUTTON1_DOWN_MASK);
 		} else if(e.getButton() == 2) {

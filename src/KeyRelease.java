@@ -28,7 +28,7 @@ public class KeyRelease implements Action{
 		try {
 			robot = new Robot();
 //			robot.setAutoDelay(0);
-//			robot.setAutoDelay((int) delay);
+			robot.setAutoDelay((int) delay);
 			} catch (AWTException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();

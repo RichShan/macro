@@ -37,6 +37,7 @@ public class MouseMove implements Action{
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
+//		robot.setAutoDelay((int) delay);
 //		robot.mouseMove(e.getX(), e.getY());
 //		robot.delay((int) delay);
 //		mcr.MoveMouseControlled(e.getX(), e.getY());	
