@@ -20,7 +20,7 @@ public class MouseCoordinatesConverter {
     	e = nme;
 	}
 
-	public static void move(NativeMouseEvent me) {
+	public static void move(NativeMouseEvent me, int delayay) {
     	e = me;
         // Get the physical screen resolution
         Dimension physicalScreenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -57,7 +57,7 @@ public class MouseCoordinatesConverter {
         // Use the scaled coordinates with Robot.mouseMove
         try {
             Robot robot = new Robot();
-            robot.setAutoDelay(delay);
+            robot.setAutoDelay(delayay);
             robot.mouseMove(scaledX, scaledY);
         } catch (Exception e) {
             e.printStackTrace();

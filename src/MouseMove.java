@@ -31,17 +31,17 @@ public class MouseMove implements Action{
 	}
 	@Override
 	public void press() {
-		try {
-			Thread.sleep(delay);
-		} catch (InterruptedException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
+//		try {
+//			Thread.sleep(delay);
+//		} catch (InterruptedException e1) {
+//			// TODO Auto-generated catch block
+//			e1.printStackTrace();
+//		}
 //		robot.setAutoDelay((int) delay);
 //		robot.mouseMove(e.getX(), e.getY());
 //		robot.delay((int) delay);
 //		mcr.MoveMouseControlled(e.getX(), e.getY());	
-		MouseCoordinatesConverter.move(e);
+		MouseCoordinatesConverter.move(e, (int) delay);
 
 		
 	}
