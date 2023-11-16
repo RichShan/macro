@@ -440,6 +440,9 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 	}
 //    write("Mouse Pressed: " + e.getX() +", " + e.getY());
   }
+
+
+	
 	@Override
   public void nativeMouseReleased(NativeMouseEvent e) {
 	if(recording) {
@@ -494,9 +497,12 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 
 	@Override
 	public void nativeMouseDragged(NativeMouseEvent e) {
-
+		if(recording) {
 //		write(System.currentTimeMillis() + ": " + "Mouse Dragged:" + e.getX() + "," + e.getY());
-		pw.println(System.currentTimeMillis() + ": " + "Mouse Dragged:" + e.getX() + "," + e.getY());
+//		System.out.println(System.currentTimeMillis() + ": " + "Mouse Dragged:" + e.getX() + "," + e.getY());
+		recordedActions.add(new MouseMove(e, System.currentTimeMillis()-time));
+		time = System.currentTimeMillis();
+		}
 	}
 
 //  public void nativeMouseWheelMoved(NativeMouseWheelEvent e) {
