@@ -377,18 +377,18 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 //      recordedActions.add(new Key(e));
 //      System.out.println(recordedActions[0]);
 
-		if (e.getKeyCode() == NativeKeyEvent.VC_ESCAPE) {
-			try {
-				System.out.println("ESCAPE ESCAPE ESCAPE");
-				GlobalScreen.unregisterNativeHook();
-              System.exit(ABORT);
-			} catch (NativeHookException e1) {
+//		if (e.getKeyCode() == NativeKeyEvent.VC_ESCAPE) {
+//			try {
+//				System.out.println("ESCAPE ESCAPE ESCAPE");
+//				GlobalScreen.unregisterNativeHook();
+//              System.exit(ABORT);
+//			} catch (NativeHookException e1) {
 				// TODO Auto-generated catch block
-				e1.printStackTrace();
-
-			}
+//				e1.printStackTrace();
+//
+//			}
 		} 
-	}
+//	}
 	@Override
 	public void nativeKeyReleased(NativeKeyEvent e) {
 		

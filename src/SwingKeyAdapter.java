@@ -22,6 +22,7 @@ import com.github.kwhat.jnativehook.keyboard.NativeKeyListener;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.util.Hashtable;
 
 /**
  * Adapter to convert NativeKeyEvents to Java KeyEvents.
@@ -57,24 +58,35 @@ public class SwingKeyAdapter extends com.github.kwhat.jnativehook.AbstractSwingI
 
 	public KeyEvent getJavaKeyEvent(NativeKeyEvent nativeEvent) {
 		int keyLocation  = KeyEvent.KEY_LOCATION_UNKNOWN;
-		switch (nativeEvent.getKeyLocation()) {
-			case NativeKeyEvent.KEY_LOCATION_STANDARD:
-				keyLocation = KeyEvent.KEY_LOCATION_STANDARD;
-				break;
+//		switch (nativeEvent.getKeyLocation()) {
+//			case NativeKeyEvent.KEY_LOCATION_STANDARD:
+//				keyLocation = KeyEvent.KEY_LOCATION_STANDARD;
+//				break;
+//
+//			case NativeKeyEvent.KEY_LOCATION_NUMPAD:
+//				keyLocation = KeyEvent.KEY_LOCATION_NUMPAD;
+//				break;
+//
+//			case NativeKeyEvent.KEY_LOCATION_LEFT:
+//				keyLocation = KeyEvent.KEY_LOCATION_STANDARD;
+//				break;
+//
+//			case NativeKeyEvent.KEY_LOCATION_RIGHT:
+//				keyLocation = KeyEvent.KEY_LOCATION_RIGHT;
+//				break;
+//		}
+		
+		//HASHTABLE
+		
+        Hashtable<Integer, Integer> hashtable = new Hashtable<>();
+        
+        hashtable.put(NativeKeyEvent.KEY_LOCATION_STANDARD, KeyEvent.KEY_LOCATION_STANDARD);
+        hashtable.put(NativeKeyEvent.KEY_LOCATION_NUMPAD, KeyEvent.KEY_LOCATION_NUMPAD);
+        hashtable.put(NativeKeyEvent.KEY_LOCATION_LEFT, KeyEvent.KEY_LOCATION_STANDARD);
+        hashtable.put(NativeKeyEvent.KEY_LOCATION_RIGHT, KeyEvent.KEY_LOCATION_RIGHT);
 
-			case NativeKeyEvent.KEY_LOCATION_NUMPAD:
-				keyLocation = KeyEvent.KEY_LOCATION_NUMPAD;
-				break;
-
-			case NativeKeyEvent.KEY_LOCATION_LEFT:
-				keyLocation = KeyEvent.KEY_LOCATION_STANDARD;
-				break;
-
-			case NativeKeyEvent.KEY_LOCATION_RIGHT:
-				keyLocation = KeyEvent.KEY_LOCATION_RIGHT;
-				break;
-		}
-
+        keyLocation = hashtable.get(nativeEvent.getKeyLocation());
+        
 		int keyCode = KeyEvent.VK_UNDEFINED;
 		switch (nativeEvent.getKeyCode()) {
 			case NativeKeyEvent.VC_ESCAPE:
