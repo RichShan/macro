@@ -81,6 +81,9 @@ public class SwingKeyAdapter extends com.github.kwhat.jnativehook.AbstractSwingI
         keyLocation = KeyLocationLookup.getInstance().lookup(nativeEvent.getKeyLocation());
         
 		int keyCode = KeyEvent.VK_UNDEFINED;
+		
+		keyCode = KeyCursorLookup.lookup(nativeEvent.getKeyCode());
+
 		switch (nativeEvent.getKeyCode()) {
 			case NativeKeyEvent.VC_ESCAPE:
 				keyCode = KeyEvent.VK_ESCAPE;
@@ -442,21 +445,23 @@ public class SwingKeyAdapter extends com.github.kwhat.jnativehook.AbstractSwingI
 
 
 			// Begin Cursor Key Zone
-			case NativeKeyEvent.VC_UP:
-				keyCode = KeyEvent.VK_UP;
-				break;
-			case NativeKeyEvent.VC_LEFT:
-				keyCode = KeyEvent.VK_LEFT;
-				break;
-			case NativeKeyEvent.VC_CLEAR:
-				keyCode = KeyEvent.VK_CLEAR;
-				break;
-			case NativeKeyEvent.VC_RIGHT:
-				keyCode = KeyEvent.VK_RIGHT;
-				break;
-			case NativeKeyEvent.VC_DOWN:
-				keyCode = KeyEvent.VK_DOWN;
-				break;
+//			case NativeKeyEvent.VC_UP:
+//				keyCode = KeyEvent.VK_UP;
+//				break;
+//			case NativeKeyEvent.VC_LEFT:
+//				keyCode = KeyEvent.VK_LEFT;
+//				break;
+//			case NativeKeyEvent.VC_CLEAR:
+//				keyCode = KeyEvent.VK_CLEAR;
+//				break;
+//			case NativeKeyEvent.VC_RIGHT:
+//				keyCode = KeyEvent.VK_RIGHT;
+//				break;
+//			case NativeKeyEvent.VC_DOWN:
+//				keyCode = KeyEvent.VK_DOWN;
+//				break;
+				
+				
 			// End Cursor Key Zone
 
 
