@@ -304,10 +304,16 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 //					} catch (InterruptedException e1) {
 //						// TODO Auto-generated catch block
 //						e1.printStackTrace();
-//					}				}
+//					}				} 
 		    }
-
-			
+		    	
+		    	robot.keyRelease(KeyEvent.VK_CONTROL);
+		    	robot.keyRelease(KeyEvent.VK_SHIFT);
+		    	
+//				robot.keyPress(KeyEvent.VK_ESCAPE);
+// 				robot.delay(5);
+//				robot.keyRelease(KeyEvent.VK_ESCAPE);
+		    	
 			write("Replaying Complete.");
 		} else if(e.getSource() == this.menuItemInfinite) {
 			infinite = !infinite;
@@ -324,9 +330,9 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 				} else {
 					GlobalScreen.unregisterNativeHook();
 				}
-			} catch (NativeHookException ex) {
+			} catch (NativeHookException ex) {  
 				this.txtEventInfo.append("Error: " + ex.getMessage() + "\n");
-			}
+			} 
 			this.menuItemEnable.setState(GlobalScreen.isNativeHookRegistered());
 			this.menuSubListeners.setEnabled(this.menuItemEnable.getState());
 		} else if (item == this.menuItemKeyboardEvents) {

@@ -43,7 +43,7 @@ public class ClickPress implements Action{
 	
 	@Override
 	public void press() {
-		System.out.println("press");
+//		System.out.println("press");
 //		robot.delay((int) delay);
 		robot.setAutoDelay((int) delay);
 		if(e.getButton() == 1) {

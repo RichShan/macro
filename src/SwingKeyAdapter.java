@@ -76,16 +76,9 @@ public class SwingKeyAdapter extends com.github.kwhat.jnativehook.AbstractSwingI
 //				break;
 //		}
 		
-		//HASHTABLE
-		
-        Hashtable<Integer, Integer> hashtable = new Hashtable<>();
-        
-        hashtable.put(NativeKeyEvent.KEY_LOCATION_STANDARD, KeyEvent.KEY_LOCATION_STANDARD);
-        hashtable.put(NativeKeyEvent.KEY_LOCATION_NUMPAD, KeyEvent.KEY_LOCATION_NUMPAD);
-        hashtable.put(NativeKeyEvent.KEY_LOCATION_LEFT, KeyEvent.KEY_LOCATION_STANDARD);
-        hashtable.put(NativeKeyEvent.KEY_LOCATION_RIGHT, KeyEvent.KEY_LOCATION_RIGHT);
+//		Hashtable<Integer, Integer> hashtable = keyLocationLookup();
 
-        keyLocation = hashtable.get(nativeEvent.getKeyLocation());
+        keyLocation = KeyLocationLookup.getInstance().lookup(nativeEvent.getKeyLocation());
         
 		int keyCode = KeyEvent.VK_UNDEFINED;
 		switch (nativeEvent.getKeyCode()) {
@@ -601,4 +594,6 @@ public class SwingKeyAdapter extends com.github.kwhat.jnativehook.AbstractSwingI
 				nativeEvent.getKeyChar(),
 				keyLocation);
 	}
+
+
 }
