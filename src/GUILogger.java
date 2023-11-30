@@ -277,7 +277,6 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 			    recording = false; 
 				recordedSequences.add(recordedActions);
 //				recordedActions.clear();
-//				recordedActions.clear();
 				write("Recording ended");
 			}
 		} else if(e.getSource() == this.menuItemReplay1) {
