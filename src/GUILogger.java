@@ -203,7 +203,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		JMenu menuReplay1 = new JMenu("Replay");
 		menuBar.add(menuReplay1);
 		
-		this.menuItemReplay1 = new JMenuItem("Replay Macro 1", 49);
+		this.menuItemReplay1 = new JMenuItem("Replay Macro", 49);
 		this.menuItemReplay1.addActionListener(this);
 		this.menuItemReplay1.setAccelerator(KeyStroke.getKeyStroke(49, 192));
 		menuReplay1.add(menuItemReplay1);
@@ -229,15 +229,12 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 
 	public static void main(String[] args) throws AWTException {
 		
-//	       Thread terminateKeyThread = new Thread();
-//	        terminateKeyThread.setDaemon(true); // Make it a daemon thread to automatically exit when main thread exits
-//	        terminateKeyThread.start();eW
 
 	        
 		robot = new Robot();
 
 		try {
-			pw = new PrintWriter("C:/Users/richa/Desktop/logger.out");
+			pw = new PrintWriter("/logger.out");
 		} catch (FileNotFoundException e2) {
 			// TODO Auto-generated catch block
 			e2.printStackTrace();
@@ -426,8 +423,8 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 //
 //		write(System.currentTimeMillis() + ": " + "Mouse clicked. x: " + e.getX() + ", y: " + e.getY() + " with Button "
 //				+ e.getButton());
-//		pw.println(System.currentTimeMillis() + ": " + "Mouse clicked. x: " + e.getX() + ", y: " + e.getY() + " with Button "
-//				+ e.getButton());		
+		pw.println(System.currentTimeMillis() + ": " + "Mouse clicked. x: " + e.getX() + ", y: " + e.getY() + " with Button "
+				+ e.getButton());		
 //		recordedActions.add(new Click(e.getButton(), e.getX(), e.getY()));
 		// System.out.println("murica");
 
