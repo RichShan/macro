@@ -69,9 +69,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 	int currentSeq = 0;
 	
 	long time = System.currentTimeMillis();	
-	
-	private static final long serialVersionUID = 1541183202160543102L;
-	
+		
 	boolean recording;
 	
 	boolean infinite = false;
@@ -293,14 +291,9 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 //		    	}
 //		    }
 //		    else if(!infinite) {
-		    	for(Action i : (Stack<Action>) recordedSequences.get(0)) {
-					i.press();
-//					try {
-//						Thread.sleep(1);
-//					} catch (InterruptedException e1) {
-//						// TODO Auto-generated catch block
-//						e1.printStackTrace();
-//					}				} 
+//		    for(Action i : (Stack<Action>) recordedSequences.get(0)) {
+			for(Action i : recordedActions) {
+				i.press();
 		    }
 		    	
 		    	robot.keyRelease(KeyEvent.VK_CONTROL);
