@@ -14,7 +14,7 @@ The Macro project was my final project for Java Data Structures (H) in 10th grad
 ##### The jar executable can be downloaded <a href="../macro.jar" download="Macro Maker.jar">here</a>.
 <br>
 <p align="center">
-##### Instructions for Use
+**Instructions for Use**
 
 Start Recording Keystrokes: CTRL + SHIFT + R
 
