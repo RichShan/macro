@@ -17,9 +17,7 @@ During recording, all input actions are created as new objects of their respecti
 <center>
 <br> 
 
-</center>
 ### Download 
-<center>
 
 ##### The github repo can be found <a href="https://github.com/richard-shan/macro">here</a>.
 ##### The jar executable can be downloaded <a href="../macro.jar" download="Macro Maker.jar">here</a>.
