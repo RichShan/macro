@@ -30,7 +30,7 @@ Replay Saved Keystroke Sequence: CTRL + SHIFT + 1
 
 <center>
 
-<img src="../bin/macroPlanningChart.jpg" alt="macroMaker_flow_chart" width="450"/>
+<img src="/bin/macroPlanningChart.jpg" alt="macroMaker_flow_chart" width="450"/>
 </center>
 
 ##### Key Elements
