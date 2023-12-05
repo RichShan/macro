@@ -13,7 +13,7 @@ The Macro project was my final project for Java Data Structures (H) in 10th grad
 ##### The github repo can be found <a href="https://github.com/richard-shan/macro" download="Macro Maker.jar">here</a>.
 ##### The jar executable can be downloaded <a href="../macro.jar" download="Macro Maker.jar">here</a>.
 <br>
-
+<p align="center">
 ##### Instructions for Use
 
 Start Recording Keystrokes: CTRL + SHIFT + R
@@ -21,17 +21,17 @@ Start Recording Keystrokes: CTRL + SHIFT + R
 Stop Recording Keystrokes and Save: CTRL + SHIFT + S
 
 Replay Saved Keystroke Sequence: CTRL + SHIFT + 1
-
+</p>
 
 <br> <br>
 </center>
 
 ### Initial Planning Chart
 
-<center>
-
+<p align="center">
 <img src="/bin/macroPlanningChart.jpg" alt="macroMaker_flow_chart" width="450"/>
-</center>
+</p>
+
 
 ##### Key Elements
 - Action interface implemented by all the action/event classes: ClickPress, ClickRelease, KeyPress, KeyRelease, MouseMove, etc.
