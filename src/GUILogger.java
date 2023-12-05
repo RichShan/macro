@@ -234,7 +234,7 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 		robot = new Robot();
 
 		try {
-			pw = new PrintWriter("/logger.out");
+			pw = new PrintWriter("logger.out");
 		} catch (FileNotFoundException e2) {
 			// TODO Auto-generated catch block
 			e2.printStackTrace();
@@ -360,12 +360,9 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 
 	@Override
 	public void nativeKeyPressed(NativeKeyEvent e) {
-		if(recording) {
-//			System.out.println("Time: " + System.currentTimeMillis());
-//			System.out.println("OLD: " + time);
-			recordedActions.add(new KeyPress(e, Math.abs(System.currentTimeMillis()-time)));
-			time = System.currentTimeMillis();
-		} 
+		recordedActions.add(new KeyPress(e, Math.abs(System.currentTimeMillis()-time)));
+		time = System.currentTimeMillis();
+	} 
 		
 //		if(recording) {
 //			recordedActions.add(new KeyPress((e), System.currentTimeMillis(), false));
@@ -389,7 +386,6 @@ public class GUILogger extends JFrame implements ActionListener, ItemListener, N
 //				e1.printStackTrace();
 //
 //			}
-		} 
 //	}
 	@Override
 	public void nativeKeyReleased(NativeKeyEvent e) {
