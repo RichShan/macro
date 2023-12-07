@@ -15,7 +15,6 @@ public class MouseCoordinatesConverter {
 	static int delay;
 	
     public MouseCoordinatesConverter(NativeMouseEvent nme, int del) {
-		// TODO Auto-generated constructor stub
     	delay = del;
     	e = nme;
 	}

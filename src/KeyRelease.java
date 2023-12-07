@@ -10,6 +10,7 @@ public class KeyRelease implements Action{
 	NativeKeyEvent e;
 	long delay;
 	
+	//Used for converting between VC and VK keycodes for use by different libs
 	SwingKeyAdapter ska = new SwingKeyAdapter();
 
 	
@@ -17,20 +18,15 @@ public class KeyRelease implements Action{
 		try {
 			robot = new Robot();
 		} catch (AWTException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-//		robot.keyPress(KeyEvent.VK_Q);
-		
+		}		
 		
 	}
 	public KeyRelease(NativeKeyEvent ke, long delay) {
 		try {
 			robot = new Robot();
-//			robot.setAutoDelay(0);
 			robot.setAutoDelay((int) delay);
 			} catch (AWTException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		e = ke;
@@ -38,17 +34,10 @@ public class KeyRelease implements Action{
 	}
 
 	@Override
+	// implemented from Action interface
 	public void press() {
-//		try {
-//			Thread.sleep(delay);
 		robot.delay((int) delay);
 		robot.keyRelease(ska.getJavaKeyEvent(e).getKeyCode());
-//
-//		} catch (InterruptedException e1) {
-//			// TODO Auto-generated catch block
-//			e1.printStackTrace();
-//		}
-////		robot.delay((int) delay);
 
 	}
 	

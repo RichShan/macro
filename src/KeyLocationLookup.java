@@ -5,10 +5,10 @@ import com.github.kwhat.jnativehook.keyboard.NativeKeyEvent;
 
 public class KeyLocationLookup {
 	
-	//Singleton instance
+	//instantiated as a singleton
     private static KeyLocationLookup instance;
     
-	//HASHTABLE
+	//Hashtable
     private static Hashtable<Integer, Integer> hashtable = new Hashtable<>();
 
     private KeyLocationLookup(){}

@@ -14,57 +14,29 @@ public class ClickPress implements Action{
 	
 	int button, x, y;
 	
+	// Constructor
 	public ClickPress(NativeMouseEvent me, long delay) {
 		e = me;
 		this.delay = delay;
 		try {
 			robot = new Robot();
-//			robot.setAutoDelay(0);
-//			robot.setAutoDelay((int) delay);
 		} catch (AWTException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 	}
-	
-//	public Click(int buttonNum, int scaledXCoord, int scaledYCoord) {
-//		
-//		try {
-//			robot = new Robot();
-//		} catch (AWTException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//		
-//		button = buttonNum;
-//		x = scaledXCoord;
-//		y = scaledYCoord;
-//	}
-	
+
 	@Override
+	// implemented from Action interface
 	public void press() {
-//		System.out.println("press");
-//		robot.delay((int) delay);
 		robot.setAutoDelay((int) delay);
-		if(e.getButton() == 1) {
+		if(e.getButton() == 1) { // left click
 			robot.mousePress(KeyEvent.BUTTON1_DOWN_MASK);
-		} else if(e.getButton() == 2) {
-//			System.out.println("RIGHT CLICK");
+		} else if(e.getButton() == 2) { // right click
 			robot.mousePress(KeyEvent.BUTTON3_DOWN_MASK);
-		} else if(e.getButton() == 3) {
+		} else if(e.getButton() == 3) { // middle click
 			robot.mousePress(KeyEvent.BUTTON2_DOWN_MASK);
 		}
-		
-//		if(e.getButton() == 1) {
-//			robot.mousePress(InputEvent.BUTTON1_MASK);
-//			robot.mouseRelease(InputEvent.BUTTON1_MASK);
-//		}
-//		
-//		if(button == 2) {
-//			robot.mousePress(InputEvent.BUTTON3_MASK);
-//			robot.mouseRelease(InputEvent.BUTTON3_MASK);
-//		}
-		
+				
 	}
 
 

@@ -15,26 +15,28 @@ public class ClickRelease implements Action{
 	
 	int button, x, y;
 	
+	// Constructor
 	public ClickRelease(NativeMouseEvent me, long delay) {
 		delay = this.delay;
 		try {
 			robot = new Robot();
 			robot.setAutoDelay(0);
-//			robot.setAutoDelay((int) delay);
 			} catch (AWTException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		e = me;
 		this.delay = delay;
 	}
 	@Override
+	// implemented from Action interface
 	public void press() {
 		robot.delay((int) delay);		
-		if(e.getButton() == 1) {
+		if(e.getButton() == 1) { // left click
 			robot.mouseRelease(KeyEvent.BUTTON1_DOWN_MASK);
-		} else if(e.getButton() == 2) {
+		} else if(e.getButton() == 2) { // right click
 			robot.mouseRelease(KeyEvent.BUTTON3_DOWN_MASK);
+		} else if(e.getButton() == 3) { // middle click
+			robot.mousePress(KeyEvent.BUTTON2_DOWN_MASK);
 		}
 		
 	}

@@ -1,22 +1,3 @@
-/* JNativeHook: Global keyboard and mouse hooking for Java.
- * Copyright (C) 2006-2016 Alexander Barker.  All Rights Received.
- * https://github.com/kwhat/jnativehook/
- *
- * JNativeHook is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Lesser General Public License as published
- * by the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * JNativeHook is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU Lesser General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
-//import org.jnativehook.AbstractSwingInputAdapter;
-
 import com.github.kwhat.jnativehook.keyboard.NativeKeyEvent;
 import com.github.kwhat.jnativehook.keyboard.NativeKeyListener;
 
@@ -58,25 +39,6 @@ public class SwingKeyAdapter extends com.github.kwhat.jnativehook.AbstractSwingI
 
 	public KeyEvent getJavaKeyEvent(NativeKeyEvent nativeEvent) {
 		int keyLocation  = KeyEvent.KEY_LOCATION_UNKNOWN;
-//		switch (nativeEvent.getKeyLocation()) {
-//			case NativeKeyEvent.KEY_LOCATION_STANDARD:
-//				keyLocation = KeyEvent.KEY_LOCATION_STANDARD;
-//				break;
-//
-//			case NativeKeyEvent.KEY_LOCATION_NUMPAD:
-//				keyLocation = KeyEvent.KEY_LOCATION_NUMPAD;
-//				break;
-//
-//			case NativeKeyEvent.KEY_LOCATION_LEFT:
-//				keyLocation = KeyEvent.KEY_LOCATION_STANDARD;
-//				break;
-//
-//			case NativeKeyEvent.KEY_LOCATION_RIGHT:
-//				keyLocation = KeyEvent.KEY_LOCATION_RIGHT;
-//				break;
-//		}
-		
-//		Hashtable<Integer, Integer> hashtable = keyLocationLookup();
 
         keyLocation = KeyLocationLookup.getInstance().lookup(nativeEvent.getKeyLocation());
         
@@ -441,29 +403,6 @@ public class SwingKeyAdapter extends com.github.kwhat.jnativehook.AbstractSwingI
 			case NativeKeyEvent.VC_PAGE_DOWN:
 				keyCode = KeyEvent.VK_PAGE_DOWN;
 				break;
-			// End Edit Key Zone
-
-
-			// Begin Cursor Key Zone
-//			case NativeKeyEvent.VC_UP:
-//				keyCode = KeyEvent.VK_UP;
-//				break;
-//			case NativeKeyEvent.VC_LEFT:
-//				keyCode = KeyEvent.VK_LEFT;
-//				break;
-//			case NativeKeyEvent.VC_CLEAR:
-//				keyCode = KeyEvent.VK_CLEAR;
-//				break;
-//			case NativeKeyEvent.VC_RIGHT:
-//				keyCode = KeyEvent.VK_RIGHT;
-//				break;
-//			case NativeKeyEvent.VC_DOWN:
-//				keyCode = KeyEvent.VK_DOWN;
-//				break;
-				
-				
-			// End Cursor Key Zone
-
 
 			// Begin Numeric Zone
 			case NativeKeyEvent.VC_NUM_LOCK:
@@ -497,39 +436,7 @@ public class SwingKeyAdapter extends com.github.kwhat.jnativehook.AbstractSwingI
 				keyCode = KeyEvent.VK_CONTEXT_MENU;
 				break;
 			// End Modifier and Control Keys
-
-
-			/* Begin Media Control Keys
-			case NativeKeyEvent.VC_POWER:
-			case NativeKeyEvent.VC_SLEEP:
-			case NativeKeyEvent.VC_WAKE:
-
-			case NativeKeyEvent.VC_MEDIA_PLAY:
-			case NativeKeyEvent.VC_MEDIA_STOP:
-			case NativeKeyEvent.VC_MEDIA_PREVIOUS:
-			case NativeKeyEvent.VC_MEDIA_NEXT:
-			case NativeKeyEvent.VC_MEDIA_SELECT:
-			case NativeKeyEvent.VC_MEDIA_EJECT:
-
-			case NativeKeyEvent.VC_VOLUME_MUTE:
-			case NativeKeyEvent.VC_VOLUME_UP:
-			case NativeKeyEvent.VC_VOLUME_DOWN:
-
-			case NativeKeyEvent.VC_APP_MAIL:
-			case NativeKeyEvent.VC_APP_CALCULATOR:
-			case NativeKeyEvent.VC_APP_MUSIC:
-			case NativeKeyEvent.VC_APP_PICTURES:
-
-			case NativeKeyEvent.VC_BROWSER_SEARCH:
-			case NativeKeyEvent.VC_BROWSER_HOME:
-			case NativeKeyEvent.VC_BROWSER_BACK:
-			case NativeKeyEvent.VC_BROWSER_FORWARD:
-			case NativeKeyEvent.VC_BROWSER_STOP:
-			case NativeKeyEvent.VC_BROWSER_REFRESH:
-			case NativeKeyEvent.VC_BROWSER_FAVORITES:
-			// End Media Control Keys */
-
-
+				
 			// Begin Japanese Language Keys
 			case NativeKeyEvent.VC_KATAKANA:
 				keyCode = KeyEvent.VK_KATAKANA;
@@ -539,8 +446,6 @@ public class SwingKeyAdapter extends com.github.kwhat.jnativehook.AbstractSwingI
 				keyCode = KeyEvent.VK_UNDERSCORE;
 				break;
 
-			//case VC_FURIGANA:
-
 			case NativeKeyEvent.VC_KANJI:
 				keyCode = KeyEvent.VK_KANJI;
 				break;
@@ -548,10 +453,6 @@ public class SwingKeyAdapter extends com.github.kwhat.jnativehook.AbstractSwingI
 			case NativeKeyEvent.VC_HIRAGANA:
 				keyCode = KeyEvent.VK_HIRAGANA;
 				break;
-
-			//case VC_YEN:
-			// End Japanese Language Keys
-
 
 			// Begin Sun keyboards
 			case NativeKeyEvent.VC_SUN_HELP:
@@ -561,10 +462,6 @@ public class SwingKeyAdapter extends com.github.kwhat.jnativehook.AbstractSwingI
 			case NativeKeyEvent.VC_SUN_STOP:
 				keyCode = KeyEvent.VK_STOP;
 				break;
-
-			//case VC_SUN_FRONT:
-
-			//case VC_SUN_OPEN:
 
 			case NativeKeyEvent.VC_SUN_PROPS:
 				keyCode = KeyEvent.VK_PROPS;
@@ -577,8 +474,6 @@ public class SwingKeyAdapter extends com.github.kwhat.jnativehook.AbstractSwingI
 			case NativeKeyEvent.VC_SUN_AGAIN:
 				keyCode = KeyEvent.VK_AGAIN;
 				break;
-
-			//case NativeKeyEvent.VC_SUN_INSERT:
 
 			case NativeKeyEvent.VC_SUN_COPY:
 				keyCode = KeyEvent.VK_COPY;

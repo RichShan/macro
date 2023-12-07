@@ -6,7 +6,6 @@ import com.github.kwhat.jnativehook.keyboard.SwingKeyAdapter;
 import com.github.kwhat.jnativehook.mouse.NativeMouseEvent;
 
 public class MouseMove implements Action{
-//	MouseCorrectRobot mcr;
     final Dimension ScreenSize;
 	static Robot robot;
 	
@@ -15,32 +14,20 @@ public class MouseMove implements Action{
 	
 	int button, x, y;
 	
-	public MouseMove(NativeMouseEvent me, long delay) {
+	public MouseMove(NativeMouseEvent me, long delay) { //Constructor
         ScreenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		this.delay = delay;
 		try {
-//			mcr = new MouseCorrectRobot();
 			robot = new Robot();
-//			robot.setAutoDelay(0);
-//			robot.setAutoDelay((int) delay);
 			} catch (AWTException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 		e = me;
 	}
 	@Override
+	// implemented from Action interface
 	public void press() {
-//		try {
-//			Thread.sleep(delay);
-//		} catch (InterruptedException e1) {
-//			// TODO Auto-generated catch block
-//			e1.printStackTrace();
-//		}
-//		robot.setAutoDelay((int) delay);
-//		robot.mouseMove(e.getX(), e.getY());
-//		robot.delay((int) delay);
-//		mcr.MoveMouseControlled(e.getX(), e.getY());	
+		//moves to scaled coordinates via use of MouseCoordinatesConverter
 		MouseCoordinatesConverter.move(e, (int) delay);
 
 		
